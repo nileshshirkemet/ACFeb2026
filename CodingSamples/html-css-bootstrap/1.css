@@ -1,0 +1,13 @@
+.container{
+    border: solid;
+    width: 1200px;
+    min-height: 100px;
+    margin: auto;
+}
+.col{
+    width: 25%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}

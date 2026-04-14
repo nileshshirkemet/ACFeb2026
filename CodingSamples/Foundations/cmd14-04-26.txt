@@ -1,0 +1,27 @@
+  140  cd Course/
+  141  mkdir -p Foundations/Basics
+  142  cd Foundations/Basics/
+  143  ls
+  144  wget -qO- iitdac.met.edu/shared/native/asm-x64.tar.gz | tar x
+  145  wget  iitdac.met.edu/shared/native/asm-x64.tar.gz
+  146  wget -qO- iitdac.met.edu/shared/native/asmrt-x64.tar.gz | tar x
+  147  ls
+  148  vi hello.s
+  149  ls
+  150  as -o hello.o hello.s \
+  151  as -o hello.o hello.s
+  152  ls
+  153  vi hello.o
+  154  ld -o hello hello.o runtime.o 
+  155  ls
+  156  ./hello 
+  157  vi hello.o
+  158  vi hello.s
+  159  as -o hello.o hello.s
+  160  ld -o hello hello.o runtime.o 
+  161  vi hello.s
+  162  ld -o hello hello.o
+  163  as -o hello.o hello.s
+  164  ld -o hello hello.o
+  165  ld -o hello hello.o runtime.o 
+  166  history >cmd14-04-26.txt

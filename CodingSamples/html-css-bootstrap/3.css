@@ -1,0 +1,14 @@
+.container{
+    border: solid;width: 1200px; margin: auto;
+}
+.col{
+    width: 33.3333%;font-size: 20px;
+    border: solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;    
+}
