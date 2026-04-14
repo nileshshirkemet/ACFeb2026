@@ -1,0 +1,45 @@
+    1  ls
+    2  cd Course/Foundations/
+    3  ls
+    4  ls Basics/
+    5  cd Basics/
+    6  vi hello.s 
+    7  vi ~/.vimrc 
+    8  vi hello.s 
+    9  vi ~/.vimrc 
+   10  vi hello.s 
+   11  vi ~/.vimrc 
+   12  vi hello.s 
+   13  as -o hello.o hello.s
+   14  vi hello.s 
+   15  as -o hello.o hello.s
+   16  ld -o hello hello.o
+   17  vi common.
+   18* 
+   19  vi hello.s 
+   20  ld -o hello hello.o runtime.o 
+   21  ./hello 
+   22  vi variabletest1.s
+   23  as variabletest1.s 
+   24  ls
+   25  ld -o program a.out runtime.o 
+   26  ls
+   27  ./program 
+   28  vi variabletest1.s
+   29* 
+   30  vi variabletest1.s
+   31  as variabletest1.s 
+   32  vi variabletest1.s
+   33  as variabletest1.s 
+   34  ld -o program a.out runtime.o 
+   35  ./program 
+   36  vi variabletest1.s
+   37  as variabletest1.s 
+   38  vi variabletest1.s
+   39  vi common.i
+   40  vi variabletest1.s
+   41  cd ..
+   42  ls
+   43  mv cmd14-04-26.txt cmd14-04-26_morning.txt 
+   44  ls
+   45  history >cmd14-04-26_evening.txt 
