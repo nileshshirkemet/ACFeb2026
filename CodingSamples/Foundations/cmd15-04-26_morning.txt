@@ -1,0 +1,10 @@
+    1  vi variabletest2.s 
+    2  vi variabletest1.s 
+    3  vi variabletest2.s 
+    4  ./run variabletest2.s 
+    5  vi variabletest2.s 
+    6  vi variabletest1.s 
+    7  vi variabletest2.s 
+    8  ls
+    9  cd ..
+   10  history > cmd15-04-26_morning.txt 

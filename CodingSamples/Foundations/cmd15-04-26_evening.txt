@@ -1,0 +1,35 @@
+    1  vi branchingtest1.s
+    2  ll
+    3  mv branchingtest1.s Foundations/Basics/
+    4  cd Foundations/Basics/
+    5  ls
+    6  vi branchingtest1.s
+    7  ./run branchingtest1.s 
+    8  vi branchingtest1.s
+    9  ./run branchingtest1.s 
+   10  vi branchingtest1.s
+   11  ./run branchingtest1.s 
+   12  vi branchingtest1.s
+   13  ./run branchingtest1.s 
+   14  vi branchingtest1.s
+   15  ./run branchingtest1.s 
+   16  vi branchingtest1.s
+   17  ./run branchingtest1.s 
+   18  vi branchingtest1.s
+   19  cp branchingtest1.s branchingtest2.s 
+   20  vi branchingtest2.s 
+   21  ./run branchingtest2.s 
+   22  vi branchingtest2.s 
+   23  ./run branchingtest2.s 
+   24  vi branchingtest2.s 
+   25  ./run branchingtest2.s 
+   26  vi branchingtest2.s 
+   27  cp branchingtest1.s proceduretest1.s
+   28  ls
+   29  vi proceduretest1.s 
+   30  ./run proceduretest1.s 
+   31  vi proceduretest1.s 
+   32  cd ../..
+   33  ls
+   34  cd Foundations/
+   35  history > cmd15-04-26_evening.txt 

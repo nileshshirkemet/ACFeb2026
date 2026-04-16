@@ -1,0 +1,25 @@
+    1  vi proceduretest1.s 
+    2  vi common.i 
+    3  vi dijkstra.s
+    4  as -o dijkstra.o dijkstra.s 
+    5  vi dijkstra.s
+    6  as -o dijkstra.o dijkstra.s 
+    7  objdump -t dijkstra.o
+    8  vi proceduretest2.s 
+    9  as proceduretest2.s 
+   10  ld -o program a.out runtime.o 
+   11  ld -o program a.out runtime.o dijkstra.o
+   12  ./program 
+   13  as proceduretest2.s 
+   14  vi proceduretest2.s 
+   15  as proceduretest2.s 
+   16  ld -o program a.out runtime.o dijkstra.o
+   17  vi proceduretest2.s 
+   18  as proceduretest2.s 
+   19  ld -o program a.out runtime.o dijkstra.o
+   20  vi proceduretest2.s 
+   21  ./program 
+   22  vi dijkstra.s 
+   23  ls
+   24  cd ..
+   25  history > cmd16-04-26_morning.txt 
