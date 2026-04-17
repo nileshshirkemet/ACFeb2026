@@ -1,0 +1,18 @@
+    1  cd Foundations/Basics/
+    2  ls
+    3  cd ..
+    4  ls
+    5  cd Syntax/
+    6  ls
+    7  clear
+    8  ls
+    9  code variabletest.cpp
+   10  c++ -o program variabletest.cpp 
+   11  ./program 
+   12  c++ -o program variabletest.cpp 
+   13  ./program 
+   14  code arraytest.cpp
+   15  c++ -o program arraytest.cpp 
+   16  ./program 
+   17  cd ..
+   18  history > cmd17-04-26_morning.txt 

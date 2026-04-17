@@ -1,0 +1,46 @@
+    1  clear
+    2  cd Foundations/Basics/
+    3  vi hllangtest1.c
+    4  ls
+    5  cc -S hllangtest1.c 
+    6  vi hllangtest1.c
+    7  cc -S hllangtest1.c 
+    8  vi hllangtest1.c
+    9  cc -S hllangtest1.c 
+   10  ls
+   11  vi hllangtest1.s
+   12  as -o hllangtest1.o hllangtest1.s
+   13  ld -o hllangtest1 hllangtest1.o runtime.o 
+   14  ls
+   15  ./hllangtest1 
+   16  vi hllangtest1.c
+   17  vi branchingtest1.s 
+   18  vi hllangtest1.c
+   19  ./hllangtest1 
+   20  cc -S hllangtest1.c 
+   21  as -o hllangtest1.o hllangtest1.s
+   22  ld -o hllangtest1 hllangtest1.o runtime.o 
+   23  ./hllangtest1 
+   24  vi hllangtest2.py
+   25  python3 hllangtest2.py 
+   26  vi hllangtest2.py
+   27  python3 hllangtest2.py 
+   28  vi hllangtest2.py
+   29  cd ..
+   30  mkdir Syntax
+   31  cd Syntax/
+   32  vi hello.cpp
+   33  c
+   34  c++ -o hello hello.cpp
+   35  vi hello.cpp
+   36  c++ -o hello hello.cpp
+   37  ls
+   38  ./hello 
+   39  vi hello.cpp
+   40  ls /usr/include/
+   41  ls /usr/include/c++/
+   42  vi hello.cpp
+   43  cd ../../
+   44  ls
+   45  cd Foundations/
+   46  history > cmd16-04-26_evening.txt 
