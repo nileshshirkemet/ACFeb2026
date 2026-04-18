@@ -1,0 +1,32 @@
+    1  cd ..
+    2  mkdir Modularization
+    3  cd Modularization/
+    4  code funccalltest1.cpp
+    5  c++ -o program funccalltest1.cpp
+    6  ./program 
+    7  cp funccalltest1.cpp funccalltest2.cpp 
+    8  code funccalltest2.cpp 
+    9  c++ -o program funccalltest2.cpp
+   10  ./program 
+   11  objdump -t program
+   12  c++filt _Z7Computefi
+   13  code computing.cpp
+   14  c++ -o program computing.cpp 
+   15  code computing.cpp
+   16  c++ -o program computing.cpp 
+   17  c++ -c computing.cpp 
+   18  ls
+   19  objdump -t computing.o
+   20  c++ -c computing.cpp 
+   21  objdump -t computing.o
+   22  c++ -c computing.cpp 
+   23  objdump -t computing.o
+   24  code extfunctest1.cpp
+   25  c++ -o program extfunctest1.cpp 
+   26  c++ -o program extfunctest1.cpp computing.o
+   27  ./program 
+   28  c++ -o program extfunctest1.cpp computing.o
+   29  ls
+   30  cd ..
+   31  ls
+   32  history>cmd18-04-26_morning.txt 

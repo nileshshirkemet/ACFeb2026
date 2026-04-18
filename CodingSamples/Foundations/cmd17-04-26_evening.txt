@@ -1,0 +1,204 @@
+    1  exit
+    2  sudo apt update && sudo apt upgrade 
+    3  sudo apt install gcc
+    4  sudo apt install build-essential 
+    5  exit
+    6  ls
+    7  ls -a
+    8  sudo cp -r /mnt/c/Users/efaculty1/Downloads/jdk-25.0.1_linux-x64_bin.tar.gz .
+    9  tar xvf jdk-25.0.1_linux-x64_bin.tar.gz 
+   10  vi .bashrc 
+   11  ls
+   12  mv jdk-25.0.1 jdk-25
+   13  ls
+   14  vi .bashrc 
+   15  exit
+   16  exit
+   17  ls
+   18  java --version
+   19  exit
+   20  mkdir test
+   21  cd test/
+   22  code .
+   23  cd ..
+   24  rm -r test
+   25  ls
+   26  cp -r /mnt/c/Users/efaculty1/Downloads/dotnet-sdk-10.0.201-linux-x64.tar.gz .
+   27  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-10.0.201-linux-x64.tar.gz -C $HOME/dotnet
+   28  vi .bashrc
+   29  exit
+   30  vi .bashrc 
+   31  dotnet --version
+   32  java --version
+   33  cp -r /mnt/c/Users/efaculty1/Downloads/apache-maven-3.9.14-bin.tar.gz .
+   34  tar xvf apache-maven-3.9.14-bin.tar.gz 
+   35  ls
+   36  rm -r dotnet-sdk-10.0.201-linux-x64.tar.gz apache-maven-3.9.14-bin.tar.gz 
+   37  ls
+   38  ls apache-maven-3.9.14/
+   39  vi .bashrc 
+   40  ls
+   41  exit
+   42  exit
+   43  mvn -v
+   44  java --version
+   45  dotnet --version
+   46  clear
+   47  ls
+   48  cc
+   49  c++
+   50  java --version
+   51  dotnet --version
+   52  mvn --version
+   53  cleat
+   54  clear
+   55  mkdir Practice
+   56  cd Practice
+   57  ls
+   58  cp -r /mnt/d/Testing/Microservices cmd*.* .
+   59  cp -r /mnt/d/Testing/Microservices cmd* .
+   60  cp -r /mnt/d/Testing/Microservices cmd.* .
+   61  cp -r /mnt/d/Testing/Microservices .
+   62  ls
+   63  ssh daciit@iitdac.met.edu
+   64  exit
+   65  ls
+   66  cd Practice/
+   67  cd Microservices/
+   68  ls
+   69  cd GRPCTest/
+   70  ls
+   71  cd ContractLib/
+   72  dotnet restore
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd ServerApp
+   77  dotnet restore
+   78  code .
+   79  dotnet restore
+   80  dotnet run
+   81  dotnet restore
+   82  dotnet build
+   83  dotnet run
+   84  exit
+   85  ls
+   86  cd Practice/
+   87  ls
+   88  cd Microservices/
+   89  code .
+   90  c++
+   91  cc
+   92  ls
+   93  cd ~/
+   94  ls
+   95  mkdir Course
+   96  cd Course/
+   97  ls
+   98  dotnet new console -n DemoApp
+   99  dotnet --version
+  100  cd DemoApp/
+  101  code .
+  102  ls
+  103  cd Course/DemoApp/
+  104  code .
+  105  cd Course/DemoApp
+  106  code .
+  107  rm -rf ~/.vscode-server/
+  108  cd ~/Course/DemoApp/
+  109  code .
+  110  dotnet --version
+  111  exit
+  112  java --version
+  113  dotnet --vrsion
+  114  dotnet --version
+  115  mvn --vresion
+  116  mvn --version
+  117  c++
+  118  cc
+  119  exit
+  120  vi ~/.bashrc
+  121  cp ~/.bashrc old.bashrc
+  122  wget -O .bashrc iitdac.met.edu/shared/wsl_ubuntu.bashrc
+  123  l
+  124  vi .bashrc 
+  125  java --version
+  126  ls 
+  127  ls jdk-25/
+  128  vi .bashrc 
+  129  java --version
+  130  dotnet --version
+  131  mvn
+  132  ls
+  133  start
+  134  ls Course/
+  135  sudo apt update
+  136  sudo apt upgrade
+  137  sudo apt install openssh-server
+  138  sudo vi /etc/wsl.conf 
+  139  exit
+  140  wget -O .vimrc iitdac.met.edu/shared/my.vimrc
+  141  vi .vimrc 
+  142  cd Course/Foundations/Basics/
+  143  vi hello.s 
+  144  exit
+  145  exit
+  146  systemctl is-systemd-managed
+  147  ps -l 1 -o comm=
+  148  ps -p 1 -o comm=
+  149  sudo systemctl start ssh
+  150  sudo ssh-keygen -A
+  151  sudo systemctl start ssh
+  152  netstat -pnlt
+  153  sudo apt install net-tools
+  154  netstat -pnlt
+  155  sudo service ssh restart
+  156  sudo mkdir -p /run/sshd
+  157  sudo chmod 0755 /run/sshd
+  158  sudo service ssh restart
+  159  journalctl -xe
+  160  exit
+  161  cd ..
+  162  cp -r Foundations/ /mnt/d/ACFeb2026/
+  163  clear
+  164  exit
+  165  python3 -V
+  166  python -V
+  167  vi ~/.bashrc 
+  168  exit
+  169  mkdir Test
+  170  cd Test
+  171  code variabletest.cpp
+  172  c++ -o program variabletest.cpp 
+  173  ./program 
+  174  ls
+  175  code variabletest.cpp
+  176  code .
+  177  gdb
+  178  sudo apt install gdb
+  179  gdb
+  180  code variabletest.cpp 
+  181  cd Course/Foundations/Syntax/
+  182  ls
+  183  code ifelsetest.cpp
+  184  c++ -o program ifelsetest.cpp 
+  185  ./program 
+  186  code switchtest.cpp
+  187  c++ -o program switchtest.cpp 
+  188  ./program 
+  189  c++ -o program switchtest.cpp 
+  190  ./program 
+  191  code dowhiletest.cpp
+  192  c++ -o program dowhiletest.cpp 
+  193  ./program 
+  194  code whiletest.cpp
+  195  c++ whiletest.cpp  -o program
+  196  ./program 
+  197  code fortest.cpp
+  198  c++ fortest.cpp -o program 
+  199  ./program 
+  200  c++ fortest.cpp -o program 
+  201  ./program 
+  202  cd ../..
+  203  cd Foundations/
+  204  history > cmd17-04-26_evening.txt 
