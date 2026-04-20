@@ -1,0 +1,24 @@
+  251  ls
+  252  code ptrtypetest.cpp
+  253  c++ -o program ptrtypetest.cpp 
+  254  ./program 
+  255  c++ -o program ptrtypetest.cpp 
+  256  ./program 
+  257  c++ -o program ptrtypetest.cpp 
+  258  ./program 
+  259  c++ -o program ptrtypetest.cpp 
+  260  ./program 
+  261  vi funcptrtest.cpp
+  262  code funcptrtest.cpp
+  263  c++ -o program funcptrtest.cpp 
+  264  ./program 
+  265  c++ -o program funcptrtest.cpp 
+  266  ./program 
+  267  cp funcptrtest.cpp funcptrtest.cpp0
+  268  c++ -o program funcptrtest.cpp 
+  269  ./program 
+  270  cd ../../
+  271  ls
+  272  cd Foundations/
+  273  ls
+  274  history > cmd20-04-26_morning.txt 

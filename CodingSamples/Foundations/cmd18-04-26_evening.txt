@@ -1,0 +1,27 @@
+    1  cd Foundations/Modularization/
+    2  cp ../Basics/dijkstra.o .
+    3  objdump -t dijkstra.o 
+    4  code extfunctest2.cpp 
+    5  c++ -o program extfunctest2.cpp 
+    6  c++ -o program extfunctest2.cpp dijkstra.o 
+    7  ./program 
+    8  vi boxing.h
+    9  vi boxing.cpp
+   10  c++ -c boxing.cpp
+   11  ls boxing.*
+   12  code exceptiontest.cpp
+   13  c++ -o program exceptiontest.cpp boxing.o
+   14  ./program 
+   15  c++ -o program exceptiontest.cpp boxing.o
+   16  ./program 
+   17  vi boxing.cpp
+   18  c++ -o program exceptiontest.cpp boxing.o
+   19  ./program 
+   20  c++ -o program exceptiontest.cpp boxing.o
+   21  ./program 
+   22  c++ -o program exceptiontest.cpp boxing.o
+   23  ./program 
+   24  cd ../../
+   25  ls
+   26  cd Foundations/
+   27  history > cmd18-04-26_evening.txt 
