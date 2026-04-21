@@ -1,0 +1,26 @@
+    1  clear
+    2  vi classtest1.cpp
+    3  code classtest1.cpp 
+    4  c++ -o program classtest1.cpp 
+    5  ./program 
+    6  c++ -o program classtest1.cpp 
+    7  ./program 
+    8  vi banner2.h
+    9  cp classtest1.cpp classtest2.cpp
+   10  code banner2.h classtest2.cpp 
+   11  c++ -o program classtest2.cpp 
+   12  ./program 
+   13  c++ -o program classtest2.cpp 
+   14  ./program 
+   15  code interval1.h
+   16  code objptrtest.cpp
+   17  c++ program objptrtest.cpp 
+   18  c++ -o program objptrtest.cpp 
+   19  ./program 
+   20  c++ -o program objptrtest.cpp 
+   21  ./program 
+   22  c++ -o program objptrtest.cpp 
+   23  ./program 
+   24  cd ..
+   25  cd Foundations/
+   26  history> cmd21-04-26_morning.txt 

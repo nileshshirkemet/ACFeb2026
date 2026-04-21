@@ -1,0 +1,8 @@
+    1  clear
+    2  ls
+    3  cd ..
+    4  mkdir Abstraction
+    5  cd Abstraction/
+    6  code banner1.h
+    7  cd ..
+    8  history >cmd20-04-26_evening.txt
