@@ -1,0 +1,367 @@
+    1  exit
+    2  sudo apt update && sudo apt upgrade 
+    3  sudo apt install gcc
+    4  sudo apt install build-essential 
+    5  exit
+    6  ls
+    7  ls -a
+    8  sudo cp -r /mnt/c/Users/efaculty1/Downloads/jdk-25.0.1_linux-x64_bin.tar.gz .
+    9  tar xvf jdk-25.0.1_linux-x64_bin.tar.gz 
+   10  vi .bashrc 
+   11  ls
+   12  mv jdk-25.0.1 jdk-25
+   13  ls
+   14  vi .bashrc 
+   15  exit
+   16  exit
+   17  ls
+   18  java --version
+   19  exit
+   20  mkdir test
+   21  cd test/
+   22  code .
+   23  cd ..
+   24  rm -r test
+   25  ls
+   26  cp -r /mnt/c/Users/efaculty1/Downloads/dotnet-sdk-10.0.201-linux-x64.tar.gz .
+   27  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-10.0.201-linux-x64.tar.gz -C $HOME/dotnet
+   28  vi .bashrc
+   29  exit
+   30  vi .bashrc 
+   31  dotnet --version
+   32  java --version
+   33  cp -r /mnt/c/Users/efaculty1/Downloads/apache-maven-3.9.14-bin.tar.gz .
+   34  tar xvf apache-maven-3.9.14-bin.tar.gz 
+   35  ls
+   36  rm -r dotnet-sdk-10.0.201-linux-x64.tar.gz apache-maven-3.9.14-bin.tar.gz 
+   37  ls
+   38  ls apache-maven-3.9.14/
+   39  vi .bashrc 
+   40  ls
+   41  exit
+   42  exit
+   43  mvn -v
+   44  java --version
+   45  dotnet --version
+   46  clear
+   47  ls
+   48  cc
+   49  c++
+   50  java --version
+   51  dotnet --version
+   52  mvn --version
+   53  cleat
+   54  clear
+   55  mkdir Practice
+   56  cd Practice
+   57  ls
+   58  cp -r /mnt/d/Testing/Microservices cmd*.* .
+   59  cp -r /mnt/d/Testing/Microservices cmd* .
+   60  cp -r /mnt/d/Testing/Microservices cmd.* .
+   61  cp -r /mnt/d/Testing/Microservices .
+   62  ls
+   63  ssh daciit@iitdac.met.edu
+   64  exit
+   65  ls
+   66  cd Practice/
+   67  cd Microservices/
+   68  ls
+   69  cd GRPCTest/
+   70  ls
+   71  cd ContractLib/
+   72  dotnet restore
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd ServerApp
+   77  dotnet restore
+   78  code .
+   79  dotnet restore
+   80  dotnet run
+   81  dotnet restore
+   82  dotnet build
+   83  dotnet run
+   84  exit
+   85  ls
+   86  cd Practice/
+   87  ls
+   88  cd Microservices/
+   89  code .
+   90  c++
+   91  cc
+   92  ls
+   93  cd ~/
+   94  ls
+   95  mkdir Course
+   96  cd Course/
+   97  ls
+   98  dotnet new console -n DemoApp
+   99  dotnet --version
+  100  cd DemoApp/
+  101  code .
+  102  ls
+  103  cd Course/DemoApp/
+  104  code .
+  105  cd Course/DemoApp
+  106  code .
+  107  rm -rf ~/.vscode-server/
+  108  cd ~/Course/DemoApp/
+  109  code .
+  110  dotnet --version
+  111  exit
+  112  java --version
+  113  dotnet --vrsion
+  114  dotnet --version
+  115  mvn --vresion
+  116  mvn --version
+  117  c++
+  118  cc
+  119  exit
+  120  vi ~/.bashrc
+  121  cp ~/.bashrc old.bashrc
+  122  wget -O .bashrc iitdac.met.edu/shared/wsl_ubuntu.bashrc
+  123  l
+  124  vi .bashrc 
+  125  java --version
+  126  ls 
+  127  ls jdk-25/
+  128  vi .bashrc 
+  129  java --version
+  130  dotnet --version
+  131  mvn
+  132  ls
+  133  start
+  134  ls Course/
+  135  sudo apt update
+  136  sudo apt upgrade
+  137  sudo apt install openssh-server
+  138  sudo vi /etc/wsl.conf 
+  139  exit
+  140  wget -O .vimrc iitdac.met.edu/shared/my.vimrc
+  141  vi .vimrc 
+  142  cd Course/Foundations/Basics/
+  143  vi hello.s 
+  144  exit
+  145  exit
+  146  systemctl is-systemd-managed
+  147  ps -l 1 -o comm=
+  148  ps -p 1 -o comm=
+  149  sudo systemctl start ssh
+  150  sudo ssh-keygen -A
+  151  sudo systemctl start ssh
+  152  netstat -pnlt
+  153  sudo apt install net-tools
+  154  netstat -pnlt
+  155  sudo service ssh restart
+  156  sudo mkdir -p /run/sshd
+  157  sudo chmod 0755 /run/sshd
+  158  sudo service ssh restart
+  159  journalctl -xe
+  160  exit
+  161  cd ..
+  162  cp -r Foundations/ /mnt/d/ACFeb2026/
+  163  clear
+  164  exit
+  165  python3 -V
+  166  python -V
+  167  vi ~/.bashrc 
+  168  exit
+  169  mkdir Test
+  170  cd Test
+  171  code variabletest.cpp
+  172  c++ -o program variabletest.cpp 
+  173  ./program 
+  174  ls
+  175  code variabletest.cpp
+  176  code .
+  177  gdb
+  178  sudo apt install gdb
+  179  gdb
+  180  code variabletest.cpp 
+  181  ls
+  182  code ifelsetest.cpp
+  183  c++ -o program ifelsetest.cpp 
+  184  ./program 
+  185  code switchtest.cpp
+  186  c++ -o program switchtest.cpp 
+  187  ./program 
+  188  c++ -o program switchtest.cpp 
+  189  ./program 
+  190  code dowhiletest.cpp
+  191  c++ -o program dowhiletest.cpp 
+  192  ./program 
+  193  code whiletest.cpp
+  194  c++ whiletest.cpp  -o program
+  195  ./program 
+  196  code fortest.cpp
+  197  c++ fortest.cpp -o program 
+  198  ./program 
+  199  c++ fortest.cpp -o program 
+  200  ./program 
+  201  cd ../..
+  202  cd Foundations/
+  203  history > cmd17-04-26_evening.txt 
+  204  vi cmd17-04-26_evening.txt 
+  205  cd ..
+  206  cp -r Foundations/ /mnt/d/DAC0226/CodingSample/
+  207  exit
+  208  sudo service ssh start
+  209  sudo journalctl -xe
+  210  date 
+  211  cd Foundations/Modularization/
+  212  cp ../Basics/dijkstra.o .
+  213  objdump -t dijkstra.o 
+  214  code extfunctest2.cpp 
+  215  c++ -o program extfunctest2.cpp 
+  216  c++ -o program extfunctest2.cpp dijkstra.o 
+  217  ./program 
+  218  vi boxing.h
+  219  vi boxing.cpp
+  220  c++ -c boxing.cpp
+  221  ls boxing.*
+  222  code exceptiontest.cpp
+  223  c++ -o program exceptiontest.cpp boxing.o
+  224  ./program 
+  225  c++ -o program exceptiontest.cpp boxing.o
+  226  ./program 
+  227  vi boxing.cpp
+  228  c++ -o program exceptiontest.cpp boxing.o
+  229  ./program 
+  230  c++ -o program exceptiontest.cpp boxing.o
+  231  ./program 
+  232  c++ -o program exceptiontest.cpp boxing.o
+  233  ./program 
+  234  cd ../../
+  235  ls
+  236  cd Foundations/
+  237  history > cmd18-04-26_evening.txt 
+  238  ls
+  239  cd ..
+  240  cp -r Foundations/ /mnt/d/DAC0226/CodingSample/
+  241  servicectl
+  242  exit
+  243  date
+  244  sudo hwclock -s4
+  245  sudo hwclock -s
+  246  sudo apt install util-linux
+  247  sudo hwclock -s
+  248  sudo apt remove openssh-server
+  249  sudo apt install util-linux
+  250  sudo apt install ntpdate
+  251  sudo timedatectl set-ntp off
+  252  sudo timedatectl set-ntp on
+  253  date
+  254  sudo ntpdate time.windows.com
+  255  date
+  256  sudo timedatectl 
+  257  sudo timedatectl set-timezone Asia/Kolkata
+  258  sudo timedatectl 
+  259  date
+  260  sudo apt install openssh-server
+  261  sudo service ssh sttus
+  262  sudo service ssh status
+  263  sudo journalctl -u ssh -n 20
+  264  sudo systemctl stop ssh.socket
+  265  sudo systemctl disable ssh.socket
+  266  sudo systemctl enable ssh.socket
+  267  sudo systemctl start ssh.socket
+  268  sudo journalctl -xe
+  269  sudo systemctl stop ssh.socket
+  270  sudo systemctl start ssh.socket
+  271  sudo systemctl stop ssh.socket
+  272  sudo systemctl disable ssh.socket
+  273  sudo systemctl enable ssh.service
+  274  sudo systemctl start ssh.service
+  275  journalctl -xeu ssh.service
+  276  sudo mkdir -p /run/sshd
+  277  sudo chmod 0755 /run/sshd
+  278  sudo systemctl restart ssh
+  279  journalctl -xeu ssh.service
+  280  sudo vi sudo nano /etc/ssh/sshd_config
+  281  sudo apt-get -o Dpkg::Options::="--force-confmiss" install --reinstall openssh-server
+  282  sudo cp /usr/share/openssh/sshd_config /etc/ssh/sshd_config
+  283  sudo vi /etc/ssh/sshd_config
+  284  sudo ssh-keygen -A
+  285  sudo systemctl stop ssh.socket
+  286  sudo systemctl restart ssh
+  287  netstat -pnlt
+  288  sudo systemctl stop ssh
+  289  netstat -pnlt
+  290  sudo vi /etc/ssh/sshd_config
+  291  sudo systemctl stop ssh.socket
+  292  sudo systemctl restart ssh
+  293  sudo systemctl stop ssh.socket
+  294  sudo vi /etc/ssh/sshd_config
+  295  sudo systemctl stop ssh.socket
+  296  sudo systemctl restart ssh
+  297  ls
+  298  exit
+  299  exit
+  300  exit
+  301  clear
+  302  ls
+  303  cd ..
+  304  mkdir Abstraction
+  305  cd Abstraction/
+  306  code banner1.h
+  307  cd ..
+  308  history >cmd20-04-26_evening.txt
+  309  vi cmd20-04-26_evening.txt
+  310  cd ..
+  311  cp -r Foundations/ /mnt/d/DAC0226/
+  312  clear
+  313  code interval1.h objptrtest.cpp 
+  314  c++ -o program objptrtest.cpp 
+  315  ./program 
+  316  c++ -o program objptrtest.cpp 
+  317  ./program 
+  318  c++ -o program objptrtest.cpp 
+  319  ./program 
+  320  c++ -o program objptrtest.cpp 
+  321  ./program 
+  322  c++ -o program objptrtest.cpp 
+  323  ./program 
+  324  c++ -o program objptrtest.cpp 
+  325  ./program 
+  326  c++ -o program objptrtest.cpp 
+  327  ./program 
+  328  c++ -o program objptrtest.cpp 
+  329  ./program 
+  330  c++ -o program objptrtest.cpp 
+  331  ./program 
+  332  c++ -o program objptrtest.cpp 
+  333  ./program 
+  334  cd ..
+  335  history > cmd21-04-26_evening.txt 
+  336  vi cmd21-04-26_evening.txt 
+  337  cd ..
+  338  cp -r Foundations/ /mnt/d/DAC0226/CodingSample/
+  339  exit
+  340  cd Abstraction/
+  341  code interval1.h 
+  342  code objptrtest.cpp 
+  343  cp objptrtest.cpp objreftest.cpp
+  344  code objreftest.cpp 
+  345  c++ -o program objreftest.cpp 
+  346  ./program 
+  347  cd Course/Foundations/Abstraction/
+  348  cp banner1.h banner2.h
+  349  code banner2.h 
+  350  ls
+  351  cp interval1.h interval2.h
+  352  code interval2.h 
+  353  code opovltest.cpp
+  354  c++ -o program opovltest.cpp 
+  355  ./program 
+  356  c++ -o program opovltest.cpp 
+  357  ./program 
+  358  c++ -o program opovltest.cpp 
+  359  ./program 
+  360  c++ -o program opovltest.cpp 
+  361  ./program 
+  362  c++ -o program opovltest.cpp 
+  363  ./program 
+  364  c++ -o program opovltest.cpp 
+  365  ./program 
+  366  cd ..
+  367  history > cmd22-04-26_morning.txt 

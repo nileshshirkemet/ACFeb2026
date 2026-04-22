@@ -1,0 +1,24 @@
+    1  clear
+    2  code interval1.h objptrtest.cpp 
+    3  c++ -o program objptrtest.cpp 
+    4  ./program 
+    5  c++ -o program objptrtest.cpp 
+    6  ./program 
+    7  c++ -o program objptrtest.cpp 
+    8  ./program 
+    9  c++ -o program objptrtest.cpp 
+   10  ./program 
+   11  c++ -o program objptrtest.cpp 
+   12  ./program 
+   13  c++ -o program objptrtest.cpp 
+   14  ./program 
+   15  c++ -o program objptrtest.cpp 
+   16  ./program 
+   17  c++ -o program objptrtest.cpp 
+   18  ./program 
+   19  c++ -o program objptrtest.cpp 
+   20  ./program 
+   21  c++ -o program objptrtest.cpp 
+   22  ./program 
+   23  cd ..
+   24  history > cmd21-04-26_evening.txt 
