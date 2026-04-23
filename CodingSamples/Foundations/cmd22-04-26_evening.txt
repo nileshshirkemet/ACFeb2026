@@ -1,0 +1,22 @@
+    1  clear
+    2  ulimit -s
+    3  code newoptest.cpp
+    4  c++ -o program newoptest.cpp 
+    5  ./program 
+    6  c++ -o program newoptest.cpp 
+    7  ./program 
+    8  c++ -o program newoptest.cpp 
+    9  ./program 
+   10  ./program \
+   11  ./program
+   12  c++ -o program newoptest.cpp 
+   13  ./program
+   14  c++ -o program newoptest.cpp 
+   15  ./program
+   16  c++ -o program newoptest.cpp 
+   17  ./program
+   18  code interval1.h 
+   19  c++ -o program newoptest.cpp 
+   20  ./program
+   21  cd ..
+   22  history >cmd22-04-26_evening.txt 
