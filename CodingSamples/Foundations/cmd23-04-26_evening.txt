@@ -1,0 +1,4 @@
+    1  clear
+    2  code banners.h derivedclasstest.cpp 
+    3  cd ..
+    4  history >cmd23-04-26_evening.txt

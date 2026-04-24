@@ -4,10 +4,9 @@
 double PurchaseBanner(const Banner& each, int copies)
 {
     float rate = copies < 5 ? 0.90 : 0.85;
-    //when a virtual method of class is called on a reference/pointer
-    //of that class type, dynamic-binding is used for dispatching
-    //the invocation
-    return copies * rate * each.Material();
+    //when a virtual member function of class is called on a reference/pointer
+    //of that class type, dynamic-binding is used for dispatching the invocation
+    return copies * rate * each.Material(); //each.vtptr->Material(each)
 }
 
 int main(void)
@@ -23,6 +22,6 @@ int main(void)
     printf("Total payment for regular banners = %.2lf\n", PurchaseBanner(a, n));
 
     HardBanner b(1.5);
-    b.Resize(w, h);
+    b.Resize(w, h); //Banner::Resize(&b, w, h) - static binding
     printf("Total payment for premium banners = %.2lf\n", PurchaseBanner(b, n));
 }

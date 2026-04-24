@@ -19,6 +19,10 @@ public:
         return width * height;
     }
 
+    //a virtual destructor indicates that this class can be
+    //safely used as a base class for other classes
+    virtual ~Banner() {}
+
 private:
     float width;
     float height;
