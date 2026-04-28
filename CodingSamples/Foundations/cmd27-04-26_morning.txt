@@ -1,0 +1,115 @@
+    1  cp boards2.h boards3.h
+    2  cp boards2.cpp boards3.cpp
+    3  code boards3.h boards3.cpp
+    4  cp typeidtest.cpp mivitest.cpp
+    5  code mivitest.cpp 
+    6  c++ -c boards3.cpp 
+    7  c++ -o program mivitest.cpp boards3.o
+    8  ./program 
+    9  c++ -o program mivitest.cpp boards3.o
+   10  ./program 
+   11  code boards3.h
+   12  c++ -o program mivitest.cpp boards3.o
+   13  code boards3.h
+   14  ./program 
+   15  CD ..
+   16  cd ..
+   17  ls
+   18  mkdir Advanced
+   19  cd Advanced/
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd Polymorphism/
+   24  ls
+   25  cd ..
+   26  ls
+   27  history >cmd25-04-26_evening.txt 
+   28  cd ..
+   29  cp -r Foundations/ /mnt/d/ACFeb2026/
+   30  cd ..
+   31  ls
+   32  cd Practice/
+   33  ls
+   34  cp -r ../Course/Foundations/ .
+   35  ls
+   36  cd Foundations/
+   37  ls
+   38  cd Modularization/
+   39  ls
+   40  cd ..
+   41  cd Polymorphism/
+   42  ls
+   43  clear
+   44  pwqd
+   45  pwd
+   46  ls
+   47  vi boards1.h
+   48  ls
+   49  vi banners.h
+   50  clear
+   51  ls
+   52  vi boards1.h
+   53  vi boards1.cpp
+   54  ls
+   55  vi dyncasttest.cpp 
+   56  vi adttest.cpp 
+   57  clear
+   58  vi boards2.cpp
+   59  ls
+   60  vi dyncasttest.cpp 
+   61  clear
+   62  cd ..
+   63  ls
+   64  cd Advanced/
+   65  ls
+   66  code functmplttest1.cpp
+   67  c++ functmplttest1.cpp 
+   68  c++ -o program functmplttest1.cpp 
+   69  ./program 
+   70  c++ -o program functmplttest1.cpp 
+   71  ./program 
+   72  cp functmplttest1.cpp functmplttest1.cpp0 
+   73  c++ -o program functmplttest1.cpp 
+   74  ./program 
+   75  cp ../Abstraction/interval2.h interval.h
+   76  code interval.h 
+   77  c++ -o program functmplttest1.cpp 
+   78  ./program 
+   79  cp functmplttest1.cpp functmplttest2.cpp
+   80  code functmplttest2.cpp 
+   81  c++ -o program functmplttest2.cpp 
+   82  ./program 
+   83  c++ -o program functmplttest2.cpp 
+   84  ./program 
+   85  c++ -o program functmplttest2.cpp 
+   86  ./program 
+   87  c++ -o program functmplttest2.cpp 
+   88  ./program 
+   89  c++ -o program functmplttest2.cpp 
+   90  ./program 
+   91  c++ -o program functmplttest2.cpp 
+   92  ./program 
+   93  code classtmplttest1.cpp
+   94  c++ -o program classtmplttest1.cpp 
+   95  ./program 
+   96  c++ -o program classtmplttest1.cpp 
+   97  ./program 
+   98  code classtmplttest2.cpp 
+   99  c++ -o program classtmplttest1.cpp 
+  100  c++ -o program classtmplttest2.cpp 
+  101  ./program 
+  102  c++ -o program classtmplttest2.cpp 
+  103  ./program 
+  104  c++ -o program classtmplttest2.cpp 
+  105  ./program 
+  106  c++ -o program classtmplttest2.cpp 
+  107  ./program 
+  108  c++ -o program classtmplttest2.cpp 
+  109  ./program 
+  110  c++ -o program classtmplttest2.cpp 
+  111  ./program 
+  112  ls
+  113  cd ..
+  114  ls
+  115  history >cmd27-04-26_morning.txt 

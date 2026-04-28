@@ -1,0 +1,27 @@
+    1  cp boards2.h boards3.h
+    2  cp boards2.cpp boards3.cpp
+    3  code boards3.h boards3.cpp
+    4  cp typeidtest.cpp mivitest.cpp
+    5  code mivitest.cpp 
+    6  c++ -c boards3.cpp 
+    7  c++ -o program mivitest.cpp boards3.o
+    8  ./program 
+    9  c++ -o program mivitest.cpp boards3.o
+   10  ./program 
+   11  code boards3.h
+   12  c++ -o program mivitest.cpp boards3.o
+   13  code boards3.h
+   14  ./program 
+   15  CD ..
+   16  cd ..
+   17  ls
+   18  mkdir Advanced
+   19  cd Advanced/
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd Polymorphism/
+   24  ls
+   25  cd ..
+   26  ls
+   27  history >cmd25-04-26_evening.txt 

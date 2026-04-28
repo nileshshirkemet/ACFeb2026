@@ -1,0 +1,36 @@
+    1  clear
+    2  ls
+    3  code adttest.cpp
+    4  c++ -o program adttest.cpp boards1.o
+    5  ./program 
+    6  c++ -o program adttest.cpp boards1.o
+    7  ./program 
+    8  c++ -o program adttest.cpp boards1.o
+    9  ./program 
+   10  code boards1.h
+   11  code boards1.cpp 
+   12  code boards1.h
+   13  cp adttest.cpp typeidtest.cpp
+   14  code typeidtest.cpp 
+   15  c++ -o program typeidtest.cpp boards1.o
+   16  ./program 
+   17  cd ..
+   18* history >cmd25-04-26_morning.txt 
+   19  cd ..
+   20  cp -r Foundations/ /mnt/d/DAC0226/CodingSample/
+   21  clear
+   22  cd Foundations/Polymorphism/
+   23* cp boards1.h boards2.h [B
+   24  cp boards1.cpp boards2.cpp
+   25  code boards2.h boards2.cpp 
+   26  cp adttest.cpp dyncasttest.cpp
+   27  code dyncasttest.cpp 
+   28  cp typeidtest.cpp dyncasttest.cpp
+   29  code dyncasttest.cpp 
+   30  c++ -c boards2.cpp 
+   31  c++ -o program dyncasttest.cpp boards2.o
+   32  ./program 
+   33  c++ -o program dyncasttest.cpp boards2.o
+   34  ./program 
+   35  cd ..
+   36  history >cmd25-04-26_morning.txt

@@ -1,0 +1,11 @@
+    1  pwd
+    2  ls
+    3  code generictest1.cpp
+    4  c++ -o program generictest1.cpp 
+    5  ./program 
+    6  c++ -o program generictest1.cpp 
+    7  ./program 
+    8  c++ -o program generictest1.cpp 
+    9  ./program 
+   10  cd ..
+   11  history >cmd27-04-26_evening.txt 
