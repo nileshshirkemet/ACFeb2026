@@ -1,0 +1,45 @@
+    1  clear
+    2  cd Java/Fundamentals/Basics/
+    3  ls
+    4  mkdir PrimitiveTypeTest
+    5  cd PrimitiveTypeTest/
+    6  mkdir demo
+    7  cd demo/
+    8  touch Program.java
+    9  ls
+   10  ll
+   11  code .
+   12  javac -d classes Program.java 
+   13  ls
+   14  ls classes/
+   15  java Program
+   16  java -cp classes/ Program 
+   17  cd classes/
+   18  java Program
+   19  cd ..
+   20  java -cp classes/ Program 
+   21  vi run
+   22  bash run
+   23  chmod +x run
+   24  ./run 
+   25  javac -d classes Program.java 
+   26  java -cp classes/ Program 
+   27  java -cp classes/ Program 10000
+   28  java -cp classes/ Program 10000 5
+   29  ./run 10000 5
+   30  ./run 200000 3
+   31  ./run 10000 12
+   32  ls classes/
+   33  ./run 10000 12.5
+   34  ./run 10000.99 12
+   35  ./run 10000.9.9 12
+   36  rm classes/Investment.class 
+   37  java -cp classes/ Program 10000 12
+   38  ./run 10000 12
+   39  ls classes/
+   40  ls
+   41  cd ../../
+   42  ls
+   43  cd ..
+   44  ls
+   45  history > cmd29-04-26_morning.txt 

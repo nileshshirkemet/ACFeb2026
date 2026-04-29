@@ -1,0 +1,32 @@
+    1  cd Foundations/Syntax/
+    2  ls
+    3  uname -m
+    4  scp hello.cpp unipro@linuxarm.km-hussain.xyz:Testing
+    5  cd ..
+    6  mkdir -p Java/Fundamentals/Basics
+    7  cd Java/Fundamentals/Basics
+    8  ls
+    9  vi Greeter.java
+   10  ls
+   11  javac Greeter.java 
+   12  ls
+   13  rm Greeter.class 
+   14  mv Greeter.java Hello.java
+   15  ls
+   16  javac Hello.java 
+   17  ls
+   18  vi Greeter.class
+   19  java Greeter
+   20  scp Greeter.class unipro@linuxarm.km-hussain.xyz:Testing
+   21  vi Hello.java 
+   22  ll
+   23  vi Hello.java 
+   24  javac Hello.java 
+   25  java Greeter 
+   26  vi Hello.java 
+   27  javac Hello.java 
+   28  javap -c Greeter.class
+   29  ls
+   30  cd ..
+   31  pwd
+   32  history >cmd27-04-26_evening.txt 
