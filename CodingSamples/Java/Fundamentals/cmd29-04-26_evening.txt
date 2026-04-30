@@ -1,0 +1,37 @@
+    1  cd Basics/
+    2  ls
+    3  mkdir ClassTypeTest
+    4  cd ClassTypeTest/
+    5  mkdir demo1
+    6  cd demo1/
+    7  code .
+    8  javac -d classes Program.java 
+    9  java -cp classes/ Program 200000 5
+   10  cp ../../PrimitiveTypeTest/demo/run .
+   11  ./run 25000 12
+   12  ./run 200000 5
+   13  cd ..
+   14  cp -r demo1/ demo2
+   15  cd demo2
+   16  code .
+   17  ./run 200000 5
+   18  ./run 25000 12
+   19  ./run 200000 5
+   20  ./run 25000 12
+   21  cd ../../..
+   22  ls
+   23  mkdir Inheritance
+   24  cd Inheritance/
+   25  mkdir SubclassTest
+   26  cd SubclassTest/
+   27  mkdir demo1
+   28  cd demo1/
+   29  code .
+   30  cp ../../../Basics/PrimitiveTypeTest/demo/run .
+   31  ./run 
+   32  ls classes/
+   33  ls classes/payroll/
+   34  ./run 
+   35  ls classes/payroll/
+   36  cd ../../../
+   37  history >cmd29-04-26_evening.txt 

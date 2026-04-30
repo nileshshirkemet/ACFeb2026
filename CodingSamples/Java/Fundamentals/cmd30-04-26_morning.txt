@@ -1,0 +1,20 @@
+    1  cd Fundamentals/Inheritance/SubclassTest/demo1/
+    2  code .
+    3  ./run
+    4  javap -c -p classes/Program.class 
+    5  ./run
+    6  cd ..
+    7  mkdir demo2
+    8  cd demo2
+    9  code .
+   10  cp ../demo1/run .
+   11  ./run 
+   12  javap java.lang.Object
+   13  ./run 
+   14  javap java.lang.Object
+   15  pwd
+   16  cd ../../../
+   17  cd ..
+   18  ls
+   19  cd Fundamentals/
+   20  history >cmd30-04-26_morning.txt 
