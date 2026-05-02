@@ -1,0 +1,45 @@
+    1  cd InterfaceTest/
+    2  ls
+    3  mkdir demo2
+    4  cd demo2
+    5  code .
+    6  javac -d classes Program.java 
+    7  ls classes/
+    8  java -cp classes/ Program Jack 115
+    9  java -cp classes/ Program Jill 8
+   10  java -cp classes/ Program Jim 80
+   11  javac -d classes Program.java 
+   12  java -cp classes/ Program Jack 115
+   13  java -cp classes/ Program Jill 8
+   14  java -cp classes/ Program Jim 80
+   15  javap classes/Auditor.class 
+   16  javap java.lang.String
+   17  javap classes/Auditor.class 
+   18  javac -d classes Program.java 
+   19  javap classes/Auditor.class 
+   20  javac -d classes Program.java 
+   21  java -cp classes/ Program Jill 8
+   22  java -cp classes/ Program Jim 80
+   23  cd ../..
+   24  cd ..
+   25  mkdir Generic
+   26  cd Generic/
+   27  ls
+   28  mkdir TypeParamTest
+   29  cd TypeParamTest/
+   30  mkdir demo1
+   31  cd demo1/
+   32  code .
+   33  cp ../../../Basics/PrimitiveTypeTest/demo/run .
+   34  ./run 78
+   35  ./run 87
+   36  ./run 78
+   37  ./run 87
+   38  ./run 78
+   39  ./run 87
+   40  ./run 78
+   41  ./run 87
+   42  javap -c classes/Program.class 
+   43  cd ..
+   44  ls
+   45  history >cmd02-05-26_evening.txt 
