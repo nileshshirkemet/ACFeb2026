@@ -1,0 +1,2 @@
+Main-Class: app.Program
+Class-Path: lib/met-bank-1.0.0.jar

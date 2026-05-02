@@ -1,0 +1,37 @@
+    1  cd bank/
+    2  code .
+    3  javac -d classes banking/*.java
+    4  ls classes/banking/
+    5* javap classes/banking/Profitable.class [B
+    6  javac -d classes banking/*.java
+    7  jar -c -f met-bank-1.0.0.jar -C classes/ banking
+    8  ls
+    9  jar -t -f met-bank-1.0.0.jar 
+   10  cd ..
+   11  mkdir demo1
+   12  cd demo1/
+   13  mkdir lib
+   14  cp ../bank/met-bank-1.0.0.jar lib
+   15  ls lib/
+   16  code .
+   17  javac -d classes app/Program.java 
+   18  javac -d classes -cp lib/met-bank-1.0.0.jar app/Program.java 
+   19  java -cp classes/:lib/met-bank-1.0.0.jar app.Program
+   20  javac -d classes -cp lib/* app/Program.java 
+   21  java -cp classes/:lib/* app.Program
+   22  bash run
+   23  chmod +x run 
+   24  ./run 
+   25  ./run 2000
+   26  ./run 16000
+   27  ./run 12000
+   28  ./run 9OOO
+   29  ./run 12000
+   30  ./run
+   31  jar -c -f bankapp.jar -m appinfo.txt -C classes/ .
+   32  ls
+   33  java -jar bankapp.jar 
+   34  java -jar bankapp.jar 3000
+   35  cd ../../
+   36  cd ..
+   37  history > cmd02-05-26_morning.txt 

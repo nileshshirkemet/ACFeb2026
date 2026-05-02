@@ -1,0 +1,16 @@
+    1  pwd
+    2  clear
+    3  cd ..
+    4  ls
+    5  cd ..
+    6  ls
+    7  mkdir InterfaceTest
+    8  cd InterfaceTest/
+    9  ls
+   10  mkdir bank
+   11  cd bank/
+   12  ls
+   13  code .
+   14  pwd
+   15  cd ../../../
+   16  history >cmd30-04-26_evening.txt 
