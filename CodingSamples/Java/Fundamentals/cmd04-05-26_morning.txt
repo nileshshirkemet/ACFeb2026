@@ -1,0 +1,41 @@
+    1  ls
+    2  cd TypeParamTest/
+    3  ls
+    4  cd ..
+    5  mkdir IterableTest
+    6  cd IterableTest/
+    7  mkdir demo1
+    8  cd demo1/
+    9  cp ../../TypeParamTest/demo2/SimpleStack.java .
+   10  code .
+   11  cp ../../TypeParamTest/demo2/run .
+   12  ./run 
+   13  javap java.util.Iterator
+   14  ./run 
+   15  ls classes/
+   16  ll classes/
+   17  javap 'SimpleStack$1.class'
+   18  javap classes/'SimpleStack$1.class'
+   19  ./run 
+   20  cd ..
+   21  mkdir demo2
+   22  cd demo
+   23  cd demo2
+   24  cp ../../TypeParamTest/demo2/Interval.java .
+   25  cp ../../TypeParamTest/demo2/run .
+   26  code .
+   27  ./run 
+   28  ./run tuesday
+   29  ./run friday
+   30  ./run sunday
+   31  ./run monday
+   32  ./run sunday
+   33  ./run friday
+   34  ./run sunday
+   35  pwd
+   36  cd ../../../..
+   37  cd Fundamentals/
+   38  ls
+   39  cd Generic/IterableTest/demo2
+   40  cd ~/Course/Java/Fundamentals/
+   41  history >cmd04-05-26_morning.txt 
