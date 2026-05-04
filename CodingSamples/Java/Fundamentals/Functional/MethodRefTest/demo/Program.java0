@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Program {
+    
+    //nested member class
+    static class SafeScheme implements Interest {
+
+        public float forPeriod(int count) {
+            return count < 3 ? 6 : 7;
+        }
+    }
+
+    public static void main(String[] args) {
+        var input = new Scanner(System.in);
+        System.out.print("Installment    : ");
+        double p = input.nextDouble();
+        System.out.print("Number of Years: ");
+        int n = input.nextInt();
+        var myinv = new Investment(p, n);
+        System.out.printf("Future value in riskless investment: %.2f%n", myinv.futureValue(new SafeScheme()));
+        input.close();
+    }
+}
