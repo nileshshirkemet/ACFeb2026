@@ -1,0 +1,20 @@
+    1  cd Functional/
+    2  ls
+    3  cd StreamTest/
+    4  mkdir demo2
+    5  cd demo2
+    6  wget -q iitdac.met.edu/shared/data/suppliers.csv
+    7  code .
+    8  cp ../demo1/run .
+    9  ./run 
+   10  ./run mouse
+   11  ./run cpu
+   12  ./run cpu monitor
+   13  ./run monitor
+   14  cd ../..
+   15  cd ..
+   16  ls
+   17  mkdir Reflection
+   18  cd Reflection/
+   19  cd ..
+   20  history >cmd05-05-26_evening.txt 
