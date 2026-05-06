@@ -1,0 +1,33 @@
+    1  mkdir IntrospectionTest
+    2  cd IntrospectionTest/
+    3  mkdir demo1
+    4  cd demo1/
+    5  cp -r ../../../Functional/StreamTest/demo1/shopping/ .
+    6  ls
+    7  code .
+    8  cp ../../../Functional/StreamTest/demo1/run .
+    9  ./run 
+   10  javap -p classes/shopping/Customer.class 
+   11  ./run 
+   12  cd ..
+   13  ls
+   14  mkdir bankfin
+   15  mv bankfin/ bankfin1/
+   16  cd bankfin1/
+   17  mkdir -p src/main/java
+   18  touch pom.xml
+   19  code .
+   20  mvn compile
+   21  code .
+   22  mvn compile
+   23  ls target/classes/
+   24  ls target/classes/finance/
+   25  mvn -q package
+   26  ls target/
+   27  mvn install
+   28  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/1.0.0/
+   29  mvn clean
+   30  ls
+   31  cd ..
+   32  ls
+   33  history >cmd06-05-26_morning.txt 
