@@ -1,0 +1,7 @@
+finance/HomeLoan.class
+finance/PersonalLoan.class
+finance/EducationLoan.class
+finance/CarLoan.class
+finance/Flexible.class
+finance/LoanHelper.class
+finance/MaxDuration.class
