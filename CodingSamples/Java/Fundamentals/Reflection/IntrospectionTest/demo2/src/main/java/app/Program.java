@@ -13,9 +13,10 @@ public class Program {
         Method scheme = c.getMethod(args[2], double.class, int.class);
         int m = 10;
         for(int n = 1; n <= m; ++n){
-            //unboxing - explicit conversion of Object type to a 
-            //primitive type through its wrapper class
+            //verify method, locate implementation, box argument and dispatch call
             float r = (float)scheme.invoke(policy, p, n); //late binding
+            //unboxing - explicit conversion of Object type to a 
+            //primitive type(float) through its wrapper class
             double emi = LoanHelper.monthlyInstallment(p, n, r);
             System.out.printf("%-6d%16.2f%n", n, emi);
         }
