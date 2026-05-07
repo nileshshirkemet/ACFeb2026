@@ -1,0 +1,2 @@
+mvn -q clean compile
+java -cp target/classes/:target/dependency/* app.Program $*

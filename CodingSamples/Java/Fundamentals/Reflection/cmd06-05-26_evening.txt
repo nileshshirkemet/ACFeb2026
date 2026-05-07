@@ -1,0 +1,46 @@
+    1  ls
+    2  cd Course/Java/Fundamentals/Reflection/
+    3  pwd
+    4  ls
+    5  cd IntrospectionTest/
+    6  ls
+    7  cd demo1/
+    8  ls
+    9  cd ..
+   10  ls
+   11  mkdir demo2
+   12  cd demo2/
+   13  mkdir -p src/main/java
+   14  echo "<project></project>" >> pom.xml
+   15  ls
+   16  code .
+   17  mvn -q compile
+   18  java -cp target/classes/ app.Program 500000 EducationLoan
+   19  ls target/
+   20  mvn clean
+   21  mvn -q compile
+   22  java -cp target/classes/:target/dependency/* app.Program 500000 EducationLoan
+   23  chmod +x run 
+   24  ./run 500000 EducationLoan 
+   25  ./run 500000 HomeLoan 
+   26  ./run 500000 PersonalLoan 
+   27  ./run 500000 CarLoan 
+   28  cd ../bankfin1/
+   29  code .
+   30  mvn -q clean install
+   31  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/
+   32  cd ../demo2
+   33  code .
+   34  ./run 500000 EducationLoan common
+   35  ./run 500000 EducationLoan scholar
+   36  ./run 500000 EducationLoan champion
+   37  ./run 500000 PersonalLoan common
+   38  ./run 500000 PersonalLoan employee
+   39  ./run 500000 HomeLoan common
+   40  ./run 500000 HomeLoan woman
+   41  ./run 500000 HomeLoan welfare
+   42  ./run 500000 CarLoan common
+   43  pwd
+   44  cd ../../../../
+   45  cd Fundamentals/
+   46  history >cmd06-05-26_evening.txt 
