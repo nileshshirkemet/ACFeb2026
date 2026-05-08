@@ -1,0 +1,29 @@
+    1  c;ear
+    2  clear
+    3  cd Reflection/AnnotationTest/demo/
+    4  cd ../bankfin/
+    5  code .
+    6  mvn -q clean install
+    7  cd ../demo/
+    8  code .
+    9  vi ../bankfin/src/main/java/finance/HomeLoan.java 
+   10  cd ../bankfin/
+   11  vi src/main/java/finance/HomeLoan.java 
+   12  mvn -q clean install
+   13  cd ../demo/
+   14  ./run 500000 EducationLoan common
+   15  ./run 500000 EducationLoan scholar
+   16  ./run 500000 PersonalLoan common
+   17  ./run 500000 PersonalLoan employee
+   18  ./run 500000 HomeLoan common
+   19  ./run 500000 HomeLoan woman
+   20  ./run 500000 HomeLoan welfare
+   21  ./run 500000 CarLoan common
+   22  cd ..
+   23  pwd
+   24  ls
+   25  cd Reflection/
+   26  ls
+   27  cd ..\
+   28  cd ..
+   29  history >cmd07-05-26_evening.txt 

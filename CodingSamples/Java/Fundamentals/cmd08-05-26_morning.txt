@@ -1,0 +1,751 @@
+    1  exit
+    2  sudo apt update && sudo apt upgrade 
+    3  sudo apt install gcc
+    4  sudo apt install build-essential 
+    5  exit
+    6  ls
+    7  ls -a
+    8  sudo cp -r /mnt/c/Users/efaculty1/Downloads/jdk-25.0.1_linux-x64_bin.tar.gz .
+    9  tar xvf jdk-25.0.1_linux-x64_bin.tar.gz 
+   10  vi .bashrc 
+   11  ls
+   12  mv jdk-25.0.1 jdk-25
+   13  ls
+   14  vi .bashrc 
+   15  exit
+   16  exit
+   17  ls
+   18  java --version
+   19  exit
+   20  mkdir test
+   21  cd test/
+   22  code .
+   23  cd ..
+   24  rm -r test
+   25  ls
+   26  cp -r /mnt/c/Users/efaculty1/Downloads/dotnet-sdk-10.0.201-linux-x64.tar.gz .
+   27  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-10.0.201-linux-x64.tar.gz -C $HOME/dotnet
+   28  vi .bashrc
+   29  exit
+   30  vi .bashrc 
+   31  dotnet --version
+   32  java --version
+   33  cp -r /mnt/c/Users/efaculty1/Downloads/apache-maven-3.9.14-bin.tar.gz .
+   34  tar xvf apache-maven-3.9.14-bin.tar.gz 
+   35  ls
+   36  rm -r dotnet-sdk-10.0.201-linux-x64.tar.gz apache-maven-3.9.14-bin.tar.gz 
+   37  ls
+   38  ls apache-maven-3.9.14/
+   39  vi .bashrc 
+   40  ls
+   41  exit
+   42  exit
+   43  mvn -v
+   44  java --version
+   45  dotnet --version
+   46  clear
+   47  ls
+   48  cc
+   49  c++
+   50  java --version
+   51  dotnet --version
+   52  mvn --version
+   53  cleat
+   54  clear
+   55  mkdir Practice
+   56  cd Practice
+   57  ls
+   58  cp -r /mnt/d/Testing/Microservices cmd*.* .
+   59  cp -r /mnt/d/Testing/Microservices cmd* .
+   60  cp -r /mnt/d/Testing/Microservices cmd.* .
+   61  cp -r /mnt/d/Testing/Microservices .
+   62  ls
+   63  ssh daciit@iitdac.met.edu
+   64  exit
+   65  ls
+   66  cd Practice/
+   67  cd Microservices/
+   68  ls
+   69  cd GRPCTest/
+   70  ls
+   71  cd ContractLib/
+   72  dotnet restore
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd ServerApp
+   77  dotnet restore
+   78  code .
+   79  dotnet restore
+   80  dotnet run
+   81  dotnet restore
+   82  dotnet build
+   83  dotnet run
+   84  exit
+   85  ls
+   86  cd Practice/
+   87  ls
+   88  cd Microservices/
+   89  code .
+   90  c++
+   91  cc
+   92  ls
+   93  cd ~/
+   94  ls
+   95  mkdir Course
+   96  cd Course/
+   97  ls
+   98  dotnet new console -n DemoApp
+   99  dotnet --version
+  100  cd DemoApp/
+  101  code .
+  102  ls
+  103  cd Course/DemoApp/
+  104  code .
+  105  cd Course/DemoApp
+  106  code .
+  107  rm -rf ~/.vscode-server/
+  108  cd ~/Course/DemoApp/
+  109  code .
+  110  dotnet --version
+  111  exit
+  112  java --version
+  113  dotnet --vrsion
+  114  dotnet --version
+  115  mvn --vresion
+  116  mvn --version
+  117  c++
+  118  cc
+  119  exit
+  120  vi ~/.bashrc
+  121  cp ~/.bashrc old.bashrc
+  122  wget -O .bashrc iitdac.met.edu/shared/wsl_ubuntu.bashrc
+  123  l
+  124  vi .bashrc 
+  125  java --version
+  126  ls 
+  127  ls jdk-25/
+  128  vi .bashrc 
+  129  java --version
+  130  dotnet --version
+  131  mvn
+  132  ls
+  133  start
+  134  ls Course/
+  135  sudo apt update
+  136  sudo apt upgrade
+  137  sudo apt install openssh-server
+  138  sudo vi /etc/wsl.conf 
+  139  exit
+  140  wget -O .vimrc iitdac.met.edu/shared/my.vimrc
+  141  vi .vimrc 
+  142  cd Course/Foundations/Basics/
+  143  vi hello.s 
+  144  exit
+  145  exit
+  146  systemctl is-systemd-managed
+  147  ps -l 1 -o comm=
+  148  ps -p 1 -o comm=
+  149  sudo systemctl start ssh
+  150  sudo ssh-keygen -A
+  151  sudo systemctl start ssh
+  152  netstat -pnlt
+  153  sudo apt install net-tools
+  154  netstat -pnlt
+  155  sudo service ssh restart
+  156  sudo mkdir -p /run/sshd
+  157  sudo chmod 0755 /run/sshd
+  158  sudo service ssh restart
+  159  journalctl -xe
+  160  exit
+  161  cd ..
+  162  cp -r Foundations/ /mnt/d/ACFeb2026/
+  163  clear
+  164  exit
+  165  python3 -V
+  166  python -V
+  167  vi ~/.bashrc 
+  168  exit
+  169  mkdir Test
+  170  cd Test
+  171  code variabletest.cpp
+  172  c++ -o program variabletest.cpp 
+  173  ./program 
+  174  ls
+  175  code variabletest.cpp
+  176  code .
+  177  gdb
+  178  sudo apt install gdb
+  179  gdb
+  180  code variabletest.cpp 
+  181  ls
+  182  code ifelsetest.cpp
+  183  c++ -o program ifelsetest.cpp 
+  184  ./program 
+  185  code switchtest.cpp
+  186  c++ -o program switchtest.cpp 
+  187  ./program 
+  188  c++ -o program switchtest.cpp 
+  189  ./program 
+  190  code dowhiletest.cpp
+  191  c++ -o program dowhiletest.cpp 
+  192  ./program 
+  193  code whiletest.cpp
+  194  c++ whiletest.cpp  -o program
+  195  ./program 
+  196  code fortest.cpp
+  197  c++ fortest.cpp -o program 
+  198  ./program 
+  199  c++ fortest.cpp -o program 
+  200  ./program 
+  201  cd ../..
+  202  cd Foundations/
+  203  history > cmd17-04-26_evening.txt 
+  204  vi cmd17-04-26_evening.txt 
+  205  cd ..
+  206  cp -r Foundations/ /mnt/d/DAC0226/CodingSample/
+  207  exit
+  208  sudo service ssh start
+  209  sudo journalctl -xe
+  210  date 
+  211  cd Foundations/Modularization/
+  212  cp ../Basics/dijkstra.o .
+  213  objdump -t dijkstra.o 
+  214  code extfunctest2.cpp 
+  215  c++ -o program extfunctest2.cpp 
+  216  c++ -o program extfunctest2.cpp dijkstra.o 
+  217  ./program 
+  218  vi boxing.h
+  219  vi boxing.cpp
+  220  c++ -c boxing.cpp
+  221  ls boxing.*
+  222  code exceptiontest.cpp
+  223  c++ -o program exceptiontest.cpp boxing.o
+  224  ./program 
+  225  c++ -o program exceptiontest.cpp boxing.o
+  226  ./program 
+  227  vi boxing.cpp
+  228  c++ -o program exceptiontest.cpp boxing.o
+  229  ./program 
+  230  c++ -o program exceptiontest.cpp boxing.o
+  231  ./program 
+  232  c++ -o program exceptiontest.cpp boxing.o
+  233  ./program 
+  234  cd ../../
+  235  ls
+  236  cd Foundations/
+  237  history > cmd18-04-26_evening.txt 
+  238  ls
+  239  cd ..
+  240  cp -r Foundations/ /mnt/d/DAC0226/CodingSample/
+  241  servicectl
+  242  exit
+  243  date
+  244  sudo hwclock -s4
+  245  sudo hwclock -s
+  246  sudo apt install util-linux
+  247  sudo hwclock -s
+  248  sudo apt remove openssh-server
+  249  sudo apt install util-linux
+  250  sudo apt install ntpdate
+  251  sudo timedatectl set-ntp off
+  252  sudo timedatectl set-ntp on
+  253  date
+  254  sudo ntpdate time.windows.com
+  255  date
+  256  sudo timedatectl 
+  257  sudo timedatectl set-timezone Asia/Kolkata
+  258  sudo timedatectl 
+  259  date
+  260  sudo apt install openssh-server
+  261  sudo service ssh sttus
+  262  sudo service ssh status
+  263  sudo journalctl -u ssh -n 20
+  264  sudo systemctl stop ssh.socket
+  265  sudo systemctl disable ssh.socket
+  266  sudo systemctl enable ssh.socket
+  267  sudo systemctl start ssh.socket
+  268  sudo journalctl -xe
+  269  sudo systemctl stop ssh.socket
+  270  sudo systemctl start ssh.socket
+  271  sudo systemctl stop ssh.socket
+  272  sudo systemctl disable ssh.socket
+  273  sudo systemctl enable ssh.service
+  274  sudo systemctl start ssh.service
+  275  journalctl -xeu ssh.service
+  276  sudo mkdir -p /run/sshd
+  277  sudo chmod 0755 /run/sshd
+  278  sudo systemctl restart ssh
+  279  journalctl -xeu ssh.service
+  280  sudo vi sudo nano /etc/ssh/sshd_config
+  281  sudo apt-get -o Dpkg::Options::="--force-confmiss" install --reinstall openssh-server
+  282  sudo cp /usr/share/openssh/sshd_config /etc/ssh/sshd_config
+  283  sudo vi /etc/ssh/sshd_config
+  284  sudo ssh-keygen -A
+  285  sudo systemctl stop ssh.socket
+  286  sudo systemctl restart ssh
+  287  netstat -pnlt
+  288  sudo systemctl stop ssh
+  289  netstat -pnlt
+  290  sudo vi /etc/ssh/sshd_config
+  291  sudo systemctl stop ssh.socket
+  292  sudo systemctl restart ssh
+  293  sudo systemctl stop ssh.socket
+  294  sudo vi /etc/ssh/sshd_config
+  295  sudo systemctl stop ssh.socket
+  296  sudo systemctl restart ssh
+  297  ls
+  298  exit
+  299  exit
+  300  exit
+  301  clear
+  302  ls
+  303  cd ..
+  304  mkdir Abstraction
+  305  cd Abstraction/
+  306  code banner1.h
+  307  cd ..
+  308  history >cmd20-04-26_evening.txt
+  309  vi cmd20-04-26_evening.txt
+  310  cd ..
+  311  cp -r Foundations/ /mnt/d/DAC0226/
+  312  clear
+  313  code interval1.h objptrtest.cpp 
+  314  c++ -o program objptrtest.cpp 
+  315  ./program 
+  316  c++ -o program objptrtest.cpp 
+  317  ./program 
+  318  c++ -o program objptrtest.cpp 
+  319  ./program 
+  320  c++ -o program objptrtest.cpp 
+  321  ./program 
+  322  c++ -o program objptrtest.cpp 
+  323  ./program 
+  324  c++ -o program objptrtest.cpp 
+  325  ./program 
+  326  c++ -o program objptrtest.cpp 
+  327  ./program 
+  328  c++ -o program objptrtest.cpp 
+  329  ./program 
+  330  c++ -o program objptrtest.cpp 
+  331  ./program 
+  332  c++ -o program objptrtest.cpp 
+  333  ./program 
+  334  cd ..
+  335  history > cmd21-04-26_evening.txt 
+  336  vi cmd21-04-26_evening.txt 
+  337  cd ..
+  338  cp -r Foundations/ /mnt/d/DAC0226/CodingSample/
+  339  exit
+  340  cd Abstraction/
+  341  code interval1.h 
+  342  code objptrtest.cpp 
+  343  cp objptrtest.cpp objreftest.cpp
+  344  code objreftest.cpp 
+  345  c++ -o program objreftest.cpp 
+  346  ./program 
+  347  ls
+  348  exit
+  349  ls
+  350  cd Test
+  351  ls
+  352  cp /mnt/d
+  353  cp /mnt/d/DAC0825/Foundations/Advanced/
+  354  wget iitdac.met.edu/shared/temp/functionaltest.cpp
+  355  ls
+  356  cat functionaltest.cpp 
+  357  c++ -std=c++20 functionaltest.cpp 
+  358  ./a.out 
+  359  exit
+  360  cd Test
+  361  ls
+  362  code rangestest.cpp
+  363  exit
+  364  ls
+  365  cd Practice/
+  366  ls
+  367  cd Foundations/
+  368  ls
+  369  cd  Polymorphism/
+  370  ls
+  371  vi boards.h
+  372  ls
+  373  vi boards1.h
+  374  vi boards1.cpp
+  375  vi boards2.h
+  376  exit
+  377  cp boards2.h boards3.h
+  378  cp boards2.cpp boards3.cpp
+  379  code boards3.h boards3.cpp
+  380  cp typeidtest.cpp mivitest.cpp
+  381  code mivitest.cpp 
+  382  c++ -c boards3.cpp 
+  383  c++ -o program mivitest.cpp boards3.o
+  384  ./program 
+  385  c++ -o program mivitest.cpp boards3.o
+  386  ./program 
+  387  code boards3.h
+  388  c++ -o program mivitest.cpp boards3.o
+  389  code boards3.h
+  390  ./program 
+  391  CD ..
+  392  cd ..
+  393  ls
+  394  mkdir Advanced
+  395  cd Advanced/
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd Polymorphism/
+  400  ls
+  401  cd ..
+  402  ls
+  403  history >cmd25-04-26_evening.txt 
+  404  cd ..
+  405  cp -r Foundations/ /mnt/d/ACFeb2026/
+  406  cd ..
+  407  ls
+  408  cd Practice/
+  409  ls
+  410  cp -r ../Course/Foundations/ .
+  411  ls
+  412  cd Foundations/
+  413  ls
+  414  cd Modularization/
+  415  ls
+  416  cd ..
+  417  cd Polymorphism/
+  418  ls
+  419  clear
+  420  pwqd
+  421  pwd
+  422  ls
+  423  vi boards1.h
+  424  ls
+  425  vi banners.h
+  426  clear
+  427  ls
+  428  vi boards1.h
+  429  vi boards1.cpp
+  430  ls
+  431  vi dyncasttest.cpp 
+  432  vi adttest.cpp 
+  433  clear
+  434  vi boards2.cpp
+  435  ls
+  436  vi dyncasttest.cpp 
+  437  clear
+  438  cd ..
+  439  ls
+  440  cd Advanced/
+  441  ls
+  442  code functmplttest1.cpp
+  443  c++ functmplttest1.cpp 
+  444  c++ -o program functmplttest1.cpp 
+  445  ./program 
+  446  c++ -o program functmplttest1.cpp 
+  447  ./program 
+  448  cp functmplttest1.cpp functmplttest1.cpp0 
+  449  c++ -o program functmplttest1.cpp 
+  450  ./program 
+  451  cp ../Abstraction/interval2.h interval.h
+  452  code interval.h 
+  453  c++ -o program functmplttest1.cpp 
+  454  ./program 
+  455  cp functmplttest1.cpp functmplttest2.cpp
+  456  code functmplttest2.cpp 
+  457  c++ -o program functmplttest2.cpp 
+  458  ./program 
+  459  c++ -o program functmplttest2.cpp 
+  460  ./program 
+  461  c++ -o program functmplttest2.cpp 
+  462  ./program 
+  463  c++ -o program functmplttest2.cpp 
+  464  ./program 
+  465  c++ -o program functmplttest2.cpp 
+  466  ./program 
+  467  c++ -o program functmplttest2.cpp 
+  468  ./program 
+  469  code classtmplttest1.cpp
+  470  c++ -o program classtmplttest1.cpp 
+  471  ./program 
+  472  c++ -o program classtmplttest1.cpp 
+  473  ./program 
+  474  code classtmplttest2.cpp 
+  475  c++ -o program classtmplttest1.cpp 
+  476  c++ -o program classtmplttest2.cpp 
+  477  ./program 
+  478  c++ -o program classtmplttest2.cpp 
+  479  ./program 
+  480  c++ -o program classtmplttest2.cpp 
+  481  ./program 
+  482  c++ -o program classtmplttest2.cpp 
+  483  ./program 
+  484  c++ -o program classtmplttest2.cpp 
+  485  ./program 
+  486  c++ -o program classtmplttest2.cpp 
+  487  ./program 
+  488  ls
+  489  cd ..
+  490  ls
+  491  history >cmd27-04-26_morning.txt 
+  492  cd ..
+  493  pwd
+  494  ls
+  495  cd Foundations/
+  496  ls
+  497  cp -r cmd27-04-26_morning.txt ~/Course/Foundations/
+  498  cp -r  Advanced ~/Course/Foundations/
+  499  cd ..
+  500  ls
+  501  cd Course/
+  502  ls
+  503  cd Foundations/
+  504  ls
+  505  cd ..
+  506  cp -r Foundations/ /mnt/d/DAC0226/CodingSample/
+  507  ls
+  508  cd Foundations/
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd Practice/
+  513  ls
+  514  cd Foundations/
+  515  ls
+  516  cd Polymorphism/
+  517  ls
+  518  code .
+  519  exit
+  520  cd Course/Foundations/Syntax/
+  521  ls
+  522  ./hello
+  523  uname -m
+  524  scp hello unipro@linuxarm.km-hussain.xyz:Testing
+  525  ssh unipro@linuxarm.km-hussain.xyz
+  526  exit
+  527  ls
+  528  cd Basics
+  529  code .
+  530  cd ..
+  531  ls
+  532  vi cmd29-04-26_morning.txt 
+  533  ls
+  534  cd Practice/
+  535  ls
+  536  cd Java/
+  537  ls
+  538  cd Fundamentals/
+  539  ls
+  540  cd Basics
+  541  ls
+  542  cd PrimitiveTypeTest/
+  543  ls
+  544  cd demo/
+  545  ls
+  546  clear
+  547  ls
+  548  ls classes/
+  549  rm -r classes
+  550  ls
+  551  java Program 10000 12
+  552  javac -d classes Program.java
+  553  ls classes
+  554  java Program 10000 12
+  555  java -cp classes Program 10000 12
+  556  pwd
+  557  cd ..
+  558  clear
+  559  ls
+  560  cd ..
+  561  ls
+  562  javac StaticDemoTest.java 
+  563  ls
+  564  java StaticDemoTest 10 200
+  565  ls
+  566  cd Practice
+  567  ls
+  568  cd Java
+  569  ls
+  570  cd Fundamentals
+  571  ls
+  572  pwd
+  573  ls
+  574  cd Basics
+  575  ls
+  576  code .
+  577  exit
+  578  pwd
+  579  clear
+  580  cd ..
+  581  ls
+  582  cd ..
+  583  ls
+  584  mkdir InterfaceTest
+  585  cd InterfaceTest/
+  586  ls
+  587  mkdir bank
+  588  cd bank/
+  589  ls
+  590  code .
+  591  pwd
+  592  cd ../../../
+  593  history >cmd30-04-26_evening.txt 
+  594  vi cmd30-04-26_morning.txt 
+  595  vi cmd30-04-26_evening.txt 
+  596  cd ..
+  597  pwd
+  598  cp -r Fundamentals/ /mnt/d/DAC0226/CodingSample/Java/
+  599  cd Test
+  600  ls
+  601  mkdir demo
+  602  cd demo
+  603  code .
+  604  javac -d classes Program.java 
+  605  java -cp classes/ Program 
+  606  javac -d classes Program.java 
+  607  java -cp classes/ Program 
+  608  cd ..
+  609  rm -r demo
+  610  ls
+  611  clear
+  612  exit
+  613  ls
+  614  cd ..
+  615  ls
+  616  cd Practice/
+  617  ls
+  618  cp -r ../Course/Java/ .
+  619  ls
+  620  cd Java/
+  621  ls
+  622  clear
+  623  ls
+  624  cd Fundamentals
+  625  ls
+  626  cd Inheritance/
+  627  ls
+  628  cd SubclassTest/
+  629  ls
+  630  code .
+  631  clear
+  632  ls
+  633  cd ..
+  634  ls
+  635  cd InterfaceTest/
+  636  ls
+  637  code .
+  638  ls
+  639  cd bank
+  640  ls
+  641  rm met-bank-1.0.0.jar 
+  642  rm classes/
+  643  rm -r classes/
+  644  pwd
+  645  clear
+  646  ls
+  647  javac -d classes banking/*.java
+  648  ls
+  649  ls classes/
+  650  jar -c -f met-bank-1.0.0.jar -C classes/ banking/
+  651  ls
+  652  exit
+  653  exit
+  654  clear
+  655  ls
+  656  ls Java/
+  657  ls Java/Fundamentals/
+  658  ls Java/Fundamentals/Reflection/
+  659  ls Java/Fundamentals/wdknwlkdwqhoidwqiohd'[
+  660  ;
+  661  s
+  662  s/
+  663  q
+  664  'sq
+  665  clear
+  666  mvn --v
+  667  vi ~/.bashrc 
+  668  cd ~
+  669  ls -s 
+  670  ls -a
+  671  sudo cp -r .bashrc /mnt/d/DAC0226/
+  672  mvn --v
+  673  exit
+  674  ls
+  675  cd Course/Java/Fundamentals/Reflection/
+  676  pwd
+  677  ls
+  678  cd IntrospectionTest/
+  679  ls
+  680  cd demo1/
+  681  ls
+  682  cd ..
+  683  ls
+  684  mkdir demo2
+  685  cd demo2/
+  686  mkdir -p src/main/java
+  687  echo "<project></project>" >> pom.xml
+  688  ls
+  689  code .
+  690  mvn -q compile
+  691  java -cp target/classes/ app.Program 500000 EducationLoan
+  692  ls target/
+  693  mvn clean
+  694  mvn -q compile
+  695  java -cp target/classes/:target/dependency/* app.Program 500000 EducationLoan
+  696  chmod +x run 
+  697  ./run 500000 EducationLoan 
+  698  ./run 500000 HomeLoan 
+  699  ./run 500000 PersonalLoan 
+  700  ./run 500000 CarLoan 
+  701  cd ../bankfin1/
+  702  code .
+  703  mvn -q clean install
+  704  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/
+  705  cd ../demo2
+  706  code .
+  707  ./run 500000 EducationLoan common
+  708  ./run 500000 EducationLoan scholar
+  709  ./run 500000 EducationLoan champion
+  710  ./run 500000 PersonalLoan common
+  711  ./run 500000 PersonalLoan employee
+  712  ./run 500000 HomeLoan common
+  713  ./run 500000 HomeLoan woman
+  714  ./run 500000 HomeLoan welfare
+  715  ./run 500000 CarLoan common
+  716  pwd
+  717  cd ../../../../
+  718  cd Fundamentals/
+  719  history >cmd06-05-26_evening.txt 
+  720  cd ..
+  721  cp -r Fundamentals/ /mnt/d/DAC0226/CodingSample/Java/
+  722  vi Course/Java/Fundamentals/Reflection/AnnotationTest/demo/src/main/java/app/Program.java 
+  723  exit
+  724  cd Test
+  725  cp -r ~/Course/Java/Fundamentals/Concurrency/ThreadTest/demo2/ ThreadTest/
+  726  cd ThreadTest/demo2/
+  727  ls
+  728  vi JointAccount.java
+  729  ./run 
+  730  vi JointAccount.java
+  731  ./run 
+  732  vi JointAccount.java
+  733  ./run 
+  734  vi JointAccount.java
+  735  mv JointAccount.java JointAccount.java1
+  736  mv JointAccount.java0 JointAccount.java
+  737  vi JointAccount.java
+  738  rm -r classes
+  739  ./run 
+  740  vi JointAccount.java
+  741  ./run 
+  742  cd ..
+  743  ls
+  744  cd ..
+  745  ls
+  746  pwd
+  747  cd ..
+  748  ls
+  749  cd Course/Java/Fundamentals/
+  750  ls
+  751  history >cmd08-05-26_morning.txt 

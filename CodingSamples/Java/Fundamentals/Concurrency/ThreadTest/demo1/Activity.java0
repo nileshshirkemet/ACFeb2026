@@ -1,0 +1,17 @@
+class Activity {
+
+    private static String id;
+
+    public static void client(String name) {
+        id = name;
+    }
+
+    public static String client() {
+        return id;
+    }
+
+    public static void perform(int count) {
+        long target = System.currentTimeMillis() + 1000 * count;
+        while(System.currentTimeMillis() < target);
+    }
+}
