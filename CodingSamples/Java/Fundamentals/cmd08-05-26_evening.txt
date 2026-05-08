@@ -1,0 +1,55 @@
+    1  clear
+    2  pwd
+    3  clear
+    4  cd ..
+    5  ls
+    6  cd Practice/
+    7  cp -r /mnt/d/ACFeb2026/Java/ .
+    8  ls
+    9  cd Java/Fundamentals/Functional/
+   10  ls
+   11  cd MethodRefTest/
+   12  ls
+   13  cd demo
+   14  code .
+   15  code ..
+   16  cd ..
+   17  ls
+   18  cd ..
+   19  ls
+   20  cd StreamTest
+   21  ls
+   22  cd demo1
+   23  cd ..
+   24  code .
+   25  ls
+   26  cd demo1
+   27  ls
+   28  ls classes
+   29  ls classes/shopping/Item.class
+   30  javap classes/shopping/Item.class
+   31  javap -p classes/shopping/Item.class
+   32  cd ~
+   33  cd Course/Java/Fundamentals/Concurrency/
+   34  ls
+   35  cd ThreadTest/
+   36  ls
+   37  cd demo2
+   38  ls
+   39  code .
+   40  javap java.lang.Object
+   41  cd ..
+   42  mkdir AsyncParallelTest
+   43  cd AsyncParallelTest/
+   44  mkdir demo
+   45  cd demo/
+   46  code .
+   47  cp ../../ThreadTest/demo1/run .
+   48  ./run 1 5
+   49  ./run 1 20
+   50  ./run 1 15
+   51  ./run 1 30
+   52  ./run 1 3000
+   53  cd ..
+   54  ls
+   55  history >cmd08-05-26_evening.txt 
