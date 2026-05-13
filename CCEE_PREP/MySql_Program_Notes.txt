@@ -1,0 +1,69 @@
+CREATE TRIGGER Validate_Account BEFORE INSERT  Update Delete ON Account
+for each row
+BEGIN
+    IF NEW.bal < 1000 THEN
+        SIGNAL SQLSTATE '45000' 
+        SET MESSAGE_TEXT = 'Amount cannot be less than 1000';
+    END IF;
+END;
+
+
+
+create procedure Account_bal_check()
+  
+     begin
+     declare aid int;
+     declare abal decimal;
+     declare done Boolean default false; 
+     declare acc_cursor cursor for select id, bal from Account;
+     DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+     open acc_cursor;
+     read_loop: LOOP
+     
+     	fetch acc_cursor into aid, abal;
+        if done then
+      	   leave read_loop;
+        end if;
+        if abal <= 1000 then
+		insert test_log(id,status) values(aid, 'Min_Bal');
+	end if;
+     end LOOP;
+     close acc_cursor;
+end;
+
+
+
+create procedure SimpleInterest_out(p double, r double, n int, out interest double)
+begin
+set interest = (p * r * n) / 100;
+end;
+
+
+create function SimpleInterest_func(p double, r double, n int)
+returns double
+deterministic
+begin
+declare interest double default 0.0;
+set interest = (p * r * n) / 100;
+return interest;
+end;
+
+
+create function SimpleInterest_both(p double, r double, n int, out ci double)
+returns double
+deterministic
+begin
+declare interest double default 0.0;
+declare amount double default 0.0;
+set amount = p * power((1+r/100), n);
+set ci = amount - p;
+set interest = (p * r * n) / 100;
+return interest;
+end;
+
+
+
+
+
+        
+
