@@ -1,0 +1,52 @@
+    1  ls
+    2  cd Course/
+    3  dotnet --version
+    4  mkdir -p DotNet/Fundamentals/Basics
+    5  cd DotNet/Fundamentals/Basics
+    6  ls
+    7  vi Hello1.il
+    8  vi Hello1.runtimeconfig.json
+    9  dotnet --version
+   10  dotnet --list-runtimes
+   11  ls
+   12  wget -q iitdac.met.edu/shared/dotnet/iltools.sh
+   13  ls
+   14  bash iltools.sh
+   15  dotnet ilasm -dll Hello1.il
+   16  ls
+   17  dotnet Hello1.dll
+   18  vi Hello1.il
+   19  ll
+   20  vi Hello1.runtimeconfig.json 
+   21  mv Hello1.runtimeconfig.json Hello1.runtimeconfig.json0
+   22  dotnet Hello1.dll
+   23  mv Hello1.runtimeconfig.json0 Hello1.runtimeconfig.json
+   24  dotnet Hello1.dll
+   25  vi Hello1.il
+   26  uname -m
+   27  scp Hello1.dll Hello1.runtimeconfig.json unipro@linuxarm.km-hussain.xyz:Testing
+   28  ssh unipro@linuxarm.km-hussain.xyz
+   29  vi Hello2.cs
+   30  dotnet build Hello2.cs -o bin
+   31  ls bin/
+   32  dotnet bin/Hello2.dll
+   33  vi bin/Hello2.runtimeconfig.json 
+   34  ./bin/Hello2 
+   35  vi Hello2.cs
+   36  dotnet bin/Hello2.dll
+   37  dotnet ildasm bin/Hello2.dll
+   38  dotnet bin/Hello2.dll
+   39  cd ..
+   40  ls
+   41  cd Java/
+   42  ls
+   43  cd Fundamentals/
+   44  ls
+   45  cd ..
+   46  ls
+   47  cd DotNet/
+   48  ls
+   49  cd Fundamentals/
+   50  ls
+   51  clear
+   52  history >cmd16-05-2026_morning.txt
