@@ -1,0 +1,27 @@
+    1  clear
+    2  pwd
+    3  ls
+    4  mkdir EFCore
+    5  cd Ef
+    6  cd EFCore/
+    7  mkdir ConventionsTest
+    8  cd ConventionsTest/
+    9  dotnet new console -n DemoApp
+   10  cd DemoApp/
+   11  wget -q iitdac.met.edu/shared/dotnet/dbprov.txt
+   12  l
+   13  vi dbprov.txt 
+   14  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   15  mkdir data
+   16  code .
+   17  dotnet run
+   18  sqlite3 data/site.db 
+   19  dotnet run Sandeep
+   20  dotnet run Asmita
+   21  dotnet run Pratha
+   22  dotnet run Om
+   23  dotnet run Asmita
+   24  dotnet run
+   25  sqlite3 data/site.db 
+   26  cd ..
+   27  history >cmd01-06-2026_evening.txt
