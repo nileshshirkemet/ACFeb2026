@@ -1,0 +1,16 @@
+    1  pwd
+    2  cd Communication/ClientTest/DemoApp/
+    3  start ../../ServerTest/DemoApp2/bin/Release/net10.0/DemoApp
+    4  code .
+    5  dotnet run localhost
+    6  curl iitdac.met.edu/shop/ups
+    7  curl -H "Accept: application/xml" iitdac.met.edu/shop/ups
+    8  curl -H "Accept: text/plain" iitdac.met.edu/shop/ups
+    9  curl -H "Accept: application/xml" iitdac.met.edu/shop/ups
+   10  curl -H "Accept: application/xml" iitdac.met.edu/shop/pc
+   11  dotnet run localhost
+   12  dotnet run
+   13  cd ..
+   14  history >cmd01-06-2026_morning
+   15* 
+   16  history >cmd01-06-2026_morning
