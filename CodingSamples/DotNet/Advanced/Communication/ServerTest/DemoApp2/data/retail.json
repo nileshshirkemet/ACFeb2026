@@ -1,5 +1,5 @@
 [
-	{"Id":"cpu","Cost":19000,"Stock":20},
+	{"Id":"cpu","Cost":19000,"Stock":25},
 	{"Id":"motherboard","Cost":8500,"Stock":20},
 	{"Id":"ddr","Cost":3500,"Stock":80},
 	{"Id":"ssd","Cost":4500,"Stock":40},

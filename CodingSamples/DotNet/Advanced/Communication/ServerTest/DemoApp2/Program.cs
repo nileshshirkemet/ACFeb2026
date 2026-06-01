@@ -7,6 +7,7 @@ var builder = Host.CreateApplicationBuilder(args);
 builder.Services.AddHostedService<TransportLayer>();
 builder.Services.AddTransient<ICommunicationLayer, InventoryLookup>();
 builder.Services.AddSingleton<IDataAccessLayer, RetailStore>();
+builder.Services.AddKeyedTransient<IDataAccessLayer, WholesaleStore>("wholesale");
 var app = builder.Build();
 app.Run();
 
