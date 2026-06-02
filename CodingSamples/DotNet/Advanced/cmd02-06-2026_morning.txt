@@ -1,0 +1,31 @@
+    1  clear
+    2  cd EFCore/
+    3  ls
+    4  mkdir ConfigurationTest
+    5  cd ConfigurationTest/
+    6  dotnet new console -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  wget -q iitdac.met.edu/shared/data/shopms.sql
+    9  code .
+   10  ssh daciit@iitdac.met.edu
+   11  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   12  dotnet build
+   13  dotnet run
+   14  dotnet run CU201
+   15  dotnet run CU202
+   16  dotnet run CU201
+   17  dotnet run CU202
+   18  cd ..
+   19  dotnet new classlib -n Sales
+   20  cd Sales/
+   21  code .
+   22  dotnet build
+   23  cd ..
+   24  dotnet new console -n DemoApp -o DemoApp2
+   25  cd DemoApp2/
+   26  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   27  dotnet add reference ../Sales/
+   28  code .
+   29  dotnet run
+   30  cd ..
+   31  history > cmd02-06-2026_morning.txt
