@@ -1,0 +1,17 @@
+    1  clear
+    2  dotnet run 201
+    3  cd EFCore/ConfigurationTest/DemoApp2/
+    4  dotnet run 201
+    5  dotnet run 301
+    6  dotnet run 201
+    7  dotnet run 205
+    8  dotnet run 202
+    9  dotnet run 0
+   10  wget -qP data iitdac.met.edu/shared/data/shop.db
+   11  ls data/
+   12  sqlite3 data/shop.db 
+   13  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   14  dotnet run 0
+   15  dotnet run 0 server
+   16  pwd
+   17  history > ~/Course/DotNet/Advanced/cmd02-06-2026_evening.txt 
