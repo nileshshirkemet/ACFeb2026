@@ -1,0 +1,26 @@
+    1  clear
+    2  ls
+    3  mkdir AspNetCore
+    4  cd AspNetCore/
+    5  mkdir EndpointTest
+    6  cd EndpointTest/
+    7  dotnet new console -n DemoApp -o DemoApp1
+    8  cd DemoApp1/
+    9  code .
+   10  dotnet run
+   11  ls bin/Debug/net10.0/DemoApp.runtimeconfig.json 
+   12  cat bin/Debug/net10.0/DemoApp.runtimeconfig.json 
+   13  dotnet run
+   14  dotnet run --Urls "http://localhost:5001"
+   15  dotnet run
+   16  dotnet run
+   17  dotnet watch
+   18  dotnet run
+   19  cd ..
+   20  cp -r DemoApp1/ DemoApp2
+   21  cd DemoApp2/
+   22  code .
+   23  dotnet watch --no-hot-reload
+   24  hexdump count.dat 
+   25  pwd
+   26  history > ~/Course/DotNet/Advanced/cmd03-06-2026_morning.txt 
