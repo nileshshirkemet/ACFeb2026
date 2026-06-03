@@ -1,0 +1,11 @@
+    1  clear
+    2  cd AspNetCore/
+    3  ls
+    4  mkdir MiddlewareTest
+    5  cd MiddlewareTest/
+    6  cp -r ../EndpointTest/DemoApp1 DemoApp
+    7  cd DemoApp/
+    8  code .
+    9  dotnet run
+   10  pwd
+   11  history > ~/Course/DotNet/Advanced/cmd03-06-2026_evening.txt 

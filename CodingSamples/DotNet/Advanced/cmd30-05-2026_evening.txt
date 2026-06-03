@@ -1,0 +1,14 @@
+    1  pwd
+    2  cd Communication/ServerTest/DemoApp2/
+    3  ls
+    4  code .
+    5  dotnet run
+    6  wget -qP data iitdac.met.edu/shared/dotnet/retail.json
+    7  dotnet run
+    8  wget -qP data iitdac.met.edu/shared/dotnet/wholesale.db
+    9  sqlite3
+   10  sudo apt install sqlite3
+   11  sqlite3 data/wholesale.db 
+   12  pwd
+   13  cd ../../../
+   14  history >cmd30-05-2026_evening.txt
