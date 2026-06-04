@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        @if(Model.GuestName.Length > 3)
+        {
+            <h1>Welcome @Model.GuestName</h1>
+        }
+        else
+        {
+            <h1>Welcome Visitor</h1>
+        }
+        <p>
+            <b>Number of Greetings: </b>@Model.GreetCount
+        </p>
+    </body>
+</html>

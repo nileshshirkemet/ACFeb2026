@@ -1,0 +1,22 @@
+    1  clear
+    2  ls
+    3  mkdir AspNetCoreMvc
+    4  cd AspNetCoreMvc/
+    5  mkdir ControllerTest
+    6  cd ControllerTest/
+    7  dotnet new web -n DemoApp -o DemoApp1
+    8  ls
+    9  cd DemoApp1/
+   10  ls
+   11  rm -r Properties/
+   12  code .
+   13  dotnet run
+   14  cp -r ../../../AspNetCore/EndpointTest/DemoApp2/Services/ .
+   15  dotnet run
+   16  cp -r ../../../EFCore/ConventionsTest/DemoApp/Tourism/ .
+   17  cp -r ../../../EFCore/ConventionsTest/DemoApp/data/
+   18  cp -r ../../../EFCore/ConventionsTest/DemoApp/data/ .
+   19  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   20  dotnet run
+   21  pwd
+   22  history > ~/Course/DotNet/Advanced/cmd04-06-2026_morning.txt 
