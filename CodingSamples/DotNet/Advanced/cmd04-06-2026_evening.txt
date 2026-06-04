@@ -1,0 +1,15 @@
+    1  cd Advanced/AspNetCoreMvc/ControllerTest/
+    2  ls
+    3  dotnet new web -n DemoApp -o DemoApp2
+    4  cd DemoApp2/
+    5  rm -r Properties/
+    6  cp -r ../DemoApp1/Tourism/ .
+    7  cp -r ../DemoApp1/Models/ .
+    8  cp -r ../DemoApp1/data/ .
+    9  code .
+   10  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   11  dotnet run
+   12  wget -qO wwwroot/alpine.js https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.15.0/cdn.min.js
+   13  dotnet run
+   14  pwd
+   15  history > ~/Course/DotNet/Advanced/cmd04-06-2026_evening.txt 
