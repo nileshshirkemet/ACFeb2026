@@ -1,0 +1,18 @@
+@page "/Greet/{person=Friend}"
+@functions{
+
+    [BindProperty(Name = "person", SupportsGet = true)]
+    public string Visitor { get; set; }
+}
+@addTagHelper DemoApp.TagHelpers.ClockTagHelper, DemoApp
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        <h1>Welcome @Visitor</h1>
+        <p>
+            <b>Current Time: </b><clock time-format="yyyy-MMM-dd hh:mm:ss tt"></clock>
+        </p>
+    </body>
+</html>

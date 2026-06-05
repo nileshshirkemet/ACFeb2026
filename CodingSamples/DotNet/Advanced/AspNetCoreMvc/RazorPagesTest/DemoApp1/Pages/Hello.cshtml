@@ -1,0 +1,17 @@
+@page
+@inject DemoApp.Services.IHitCounter counting
+@{
+    int count = counting.CountNext("common");
+    int token = Random.Shared.Next(1000, 10000);
+}
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        <h1>Hello Guest Number @count</h1>
+        <p>
+            <b>Your Visit Token: </b>@token
+        </p>
+    </body>
+</html>
