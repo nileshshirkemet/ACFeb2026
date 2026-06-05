@@ -1,0 +1,5 @@
+    1  cd Advanced/AspNetCoreMvc/RazorPagesTest/DemoApp2/
+    2  code .
+    3  dotnet run
+    4  pwd
+    5  history > ~/Course/DotNet/Advanced/cmd05-06-2026_evening.txt 

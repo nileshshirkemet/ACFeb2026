@@ -1,0 +1,23 @@
+    1  clear
+    2  cd AspNetCoreMvc/
+    3  ls
+    4  mkdir RazorPagesTest
+    5  cd RazorPagesTest/
+    6  dotnet new web -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  rm -r Properties/
+    9  code .
+   10  cp -r ../../ControllerTest/DemoApp1/Services/ .
+   11  dotnet run
+   12  cd ..
+   13  dotnet new web -n DemoApp -o DemoApp2
+   14  dotnet run
+   15  cd DemoApp2/
+   16  dotnet run
+   17  code .
+   18  dotnet run
+   19  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   20  dotnet run
+   21  cd ..
+   22  ls
+   23  history >cmd05-06-2026_morning.txt 
