@@ -1,0 +1,20 @@
+    1  clear
+    2  cd Advanced/
+    3  ls
+    4  mkdir Microservices
+    5  cd Microservices/
+    6  dotnet new GRPCTest
+    7  mkdir GRPCTest
+    8  cd GRPCTest/
+    9  dotnet new classlib -n Sales -o ContractLib
+   10  cd ContractLib/
+   11  ls
+   12  rm Class1.cs 
+   13  dotnet add package Grpc
+   14  dotnet add package Grpc.Tools
+   15  dotnet add package Google.Protobuf
+   16  code .
+   17  dotnet build
+   18  ls
+   19  pwd
+   20  history > ~/Course/DotNet/Advanced/cmd06-06-2026_morning.txt 
