@@ -1,0 +1,15 @@
+  895  exit
+  896  exit
+  897  curl http://localhost:5000/api/feedbacks/
+  898  exit
+  899  exit
+  900  exit
+  901  exit
+  902  exit
+  903  netstat -pnlt
+  904  cd Course/DotNet/Advanced/Microservices/GRPCTest/ContractLib/
+  905  vi order_manager.proto 
+  906  dotnet build
+  907  cd ../ServerApp/
+  908  ./bin/Release/net10.0/ServerApp 
+  909  history > ~/Course/DotNet/Advanced/cmd06-06-2026_evening-II.txt

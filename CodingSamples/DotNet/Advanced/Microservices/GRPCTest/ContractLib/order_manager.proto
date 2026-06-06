@@ -23,5 +23,5 @@ message CustomerInput {
 message CustomerOrder {
     int32 item_code = 1;
     int32 item_count = 2;
-    string confirmation_data = 3;
+    string confirmation_date = 3;
 }
