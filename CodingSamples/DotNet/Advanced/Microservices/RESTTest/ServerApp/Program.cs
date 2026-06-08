@@ -10,7 +10,15 @@ builder.Services.AddGrpcClient<OrderManagerStub>(
 builder.Services.AddAuthentication()
     .AddJwtBearer(options => JwtHelper.ValidateToken(options));
 builder.Services.AddAuthorization();
+//web-browser only allows client side code downloaded from a particular endpoint
+//to consume resources exchanged by that same endpoint (same origin policy) or 
+//from another endpoint which supports cross-origin resource sharing(CORS) by
+//sending relevant headers(Access-Control-Allow-*)
+builder.Services.AddCors(); //enable CORS
 var app = builder.Build();
+app.UseCors(); //pass CORS header
+app.UseAuthentication();
+app.UseAuthorization();
 //mapping minimal-api endpoints
 app.MapGet("/api/greet/{id}", async (string id) =>
 {
@@ -24,4 +32,10 @@ app.MapGet("/api/greet/{id}", async (string id) =>
 var rest = app.MapGroup("/api/sales");
 rest.MapGet("/orders/{customerId}", OrderManagerApi.ReadOrders).RequireAuthorization();
 rest.MapPost("/orders", OrderManagerApi.CreateOrder).RequireAuthorization();
+rest.MapGet("/agents/{id}/{passcode}", SalesAgentApi.SignIn);
+rest.RequireCors(policy => policy
+    .WithOrigins("http://localhost:5001")
+    .AllowAnyMethod()
+    .AllowAnyHeader()    
+);
 app.Run();
