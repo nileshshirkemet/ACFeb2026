@@ -1,0 +1,18 @@
+    1  pwd
+    2  cd Advanced/Microservices/GRPCTest/ServerApp/
+    3  start bin/Release/net10.0/ServerApp
+    4  cd ../DemoApp/
+    5  python Program.py CU101
+    6  cd ..
+    7  mkdir RESTTest
+    8  cd RESTTest/
+    9  ls
+   10  dotnet new web -n ServerApp
+   11  cd ServerApp/
+   12  dotnet add reference ../../GRPCTest/ContractLib/
+   13  dotnet add package Grpc.Net.ClientFactory
+   14  dotnet Microsoft.AspNetCore.Authentication.JwtBearer
+   15  dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+   16  code .
+   17  dotnet run
+   18  history > ~/Course/DotNet/Advanced/cmd08-06-2026_morning-I.txt 
