@@ -1,0 +1,43 @@
+    1  clear
+    2  pwd
+    3  cd ../../
+    4  ls
+    5  cd Java/
+    6  clear
+    7  javap java.lang.Math
+    8  javap java.lang.Object
+    9  ls
+   10  mkdir Advanced
+   11  cd Advanced/
+   12  mkdir Interoperation
+   13  cd Interoperation/
+   14  mkdir LinkerTest
+   15  cd LinkerTest/
+   16  mkdir demo
+   17  cd demo/
+   18  mkdir app
+   19  touch app/Program.java
+   20  code .
+   21  javac -d classes app/*.java
+   22  java -cp classes/ app.Program
+   23  javac -d classes module-info.java app/*.java
+   24  java -p classes -m demo/app.Program 
+   25  cp -r ~/Course/DotNet/Advanced/Interoperation/NativeLibTest/DemoApp/native/ .
+   26  bash run 9000 6 ddb
+   27  bash run 9000 6 syd
+   28  bash run 9000 6 ddb
+   29  code .
+   30  cd ../..
+   31  ls
+   32  mkdir ArenaTest
+   33  cd ArenaTest/
+   34  mkdir demo
+   35  cd demo/
+   36  mkdir app
+   37  touch app/Program.java
+   38  cp -r ~/Course/DotNet/Advanced/Interoperation/DllImportTest/DemoApp2/native/ .
+   39  code .
+   40  pwd
+   41  cd ..
+   42  ls
+   43  history > cmd09-06-26_morning.txt
