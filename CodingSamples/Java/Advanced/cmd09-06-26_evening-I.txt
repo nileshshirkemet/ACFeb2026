@@ -1,0 +1,27 @@
+    1  cd Interoperation/ArenaTest/demo/
+    2  code .
+    3  bash run 20 4
+    4  bash run 100 4
+    5  bash run 100 6
+    6  cd ..
+    7  ls
+    8  mkdir Communication
+    9  cd Communication/
+   10  mkdir ServerTest
+   11  mkdir demo1
+   12  cd demo1/
+   13  mkdir app
+   14  touch app/Program.java
+   15  vi run
+   16  code .
+   17  bash run
+   18  ls
+   19  cd ..
+   20  ls
+   21  mv demo1/ ServerTest/
+   22  cd ServerTest/
+   23  cd demo1/
+   24  code .
+   25  bash run 
+   26  pwd
+   35  history > ~/Course/Java/Advanced/cmd09-06-26_evening.txt
