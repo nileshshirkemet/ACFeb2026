@@ -1,0 +1,18 @@
+    1  clear
+    2  cd Advanced/
+    3  wget -q iitdac.met.edu/shared/java/newmvnproj
+    4  ls
+    5  chmod +x newmvnproj 
+    6  cd Communication/ServerTest/
+    7  ls
+    8  ../../newmvnproj 
+    9  ../../newmvnproj hk2di-app demo2
+   10  cd demo2/
+   11  ls
+   12  code .
+   13  ./run 
+   14  ./run -Dserver.port=4030
+   15  ./run
+   16  wget -qP data iitdac.met.edu/shared/java/retail.json
+   17  ./run
+   18  history > ~/Course/Java/Advanced/cmd10-06-26_morning-I.txt 
