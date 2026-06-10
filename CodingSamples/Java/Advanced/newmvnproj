@@ -1,0 +1,10 @@
+if [ "$#" -lt 2 ]; then
+    echo "Usage: $0 <project-type> <output-dir>"
+    echo "Project Types: simple-app, hk2di-app, eclink-app, jetty-webapp, tomcat-webapp, jersey-restapp, grpc-protolib"
+	exit 1
+fi
+
+wget -qO- iitdac.met.edu/shared/java/maven-projects/$1.zip | jar x -C $2
+[ -e "$2/run" ] && chmod +x $2/run
+[ -e "$2/mkdist" ] && chmod +x $2/mkdist
+

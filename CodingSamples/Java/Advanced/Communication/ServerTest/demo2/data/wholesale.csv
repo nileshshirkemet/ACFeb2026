@@ -1,0 +1,6 @@
+id,cost,stock,brand
+laptop,65000,10,dell
+desktop,35000,30,dell
+printer,15000,50,hp
+scanner,12000,25,hp
+router,7200,60,tplink

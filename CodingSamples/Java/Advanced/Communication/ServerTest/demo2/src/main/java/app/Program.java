@@ -8,6 +8,7 @@ import app.services.common.TransportLayer;
 import app.services.shopping.DataAccessLayer;
 import app.services.shopping.InventoryLookup;
 import app.services.shopping.RetailStore;
+import app.services.shopping.WholesaleStore;
 import jakarta.inject.Singleton;
 
 public class Program extends AbstractBinder {
@@ -16,6 +17,7 @@ public class Program extends AbstractBinder {
     protected void configure() {
         bind(InventoryLookup.class).to(CommunicationLayer.class);
         bind(RetailStore.class).to(DataAccessLayer.class).in(Singleton.class);
+        bind(WholesaleStore.class).to(DataAccessLayer.class).named("wholesale");
     }
 
     public static void main(String[] args) throws Exception {

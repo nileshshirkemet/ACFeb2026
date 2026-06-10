@@ -1,0 +1,22 @@
+    1  clear
+    2  cd Communication/ServerTest/demo2/
+    3  wget -qP data iitdac.met.edu/shared/java/wholesale.csv
+    4  ./run 
+    5  cd ../..
+    6  ls
+    7  mkdir ClientTest
+    8  cd ClientTest/
+    9  ../../newmvnproj simple-app demo
+   10  ls
+   11  cd demo/
+   12  ls
+   13  code .
+   14  ./run localhost
+   15  curl iitdac.met.edu/shop/ups
+   16  curl -H "Accept: application/xml" iitdac.met.edu/shop/ups
+   17  curl -H "Accept: text/plain" iitdac.met.edu/shop/ups
+   18  curl -H "Accept: text/plain" iitdac.met.edu/shop/pc
+   19  ./run localhost
+   20  ./run
+   21  mysql -h 127.0.0.1 -u root -p
+   22  history > ~/Course/Java/Advanced/cmd10-06-26_evening.txt 

@@ -1,0 +1,6 @@
+app/models/ItemInfo.class
+app/models/NetItemStore.class
+app/models/WebItemStore.class
+app/models/DataAccessLayer.class
+app/views/PresentationLayer.class
+app/Program.class

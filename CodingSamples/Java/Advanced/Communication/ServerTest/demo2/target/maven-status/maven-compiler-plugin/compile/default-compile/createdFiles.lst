@@ -1,6 +1,7 @@
 app/services/shopping/InventoryLookup.class
 app/services/common/TransportLayer.class
 app/services/shopping/DataAccessLayer.class
+app/services/shopping/WholesaleStore.class
 app/services/shopping/RetailStore.class
 app/services/shopping/ItemInfo.class
 app/helpers/AppConfig.class
