@@ -1,0 +1,36 @@
+    1  cd ~/Course/Java/Advanced/
+    2  ls
+    3  mkdir JDBC
+    4  cd JDBC/
+    5  mkdir SQLExecTest
+    6  cd SQLExecTest/
+    7  ../../newmvnproj simple-app demo1
+    8  cd demo1/
+    9  ls
+   10  code .
+   11  javap java.sql.Connection
+   12  javap java.sql.Statement
+   13  javap java.sql.ResultSet
+   14  javap java.sql.Driver
+   15  ./run 
+   16  ./run 303
+   17  ./run 
+   18  ./run 306
+   19  ./run "delete from products"
+   20  cd ..
+   21  ../../newmvnproj simple-app demo2
+   22  cd demo2/
+   23  code .
+   24  ./run 
+   25  ./run CU101 105 14
+   26  ./run CU103 109 18
+   27  cd ../..
+   28  ls
+   29  mkdir StoredProcTest
+   30  cd StoredProcTest/
+   31  ../../newmvnproj simple-app demo
+   32  cd demo/
+   33  wget iitdac.met.edu/shared/data/salesora.sql
+   34  code .
+   35  pwd
+   36  history > ~/Course/Java/Advanced/cmd11-06-26_morning.txt 
