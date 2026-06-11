@@ -1,0 +1,10 @@
+pack="deploy.war"
+mkdir -p dist/target
+mkdir -p dist/server/target
+[ -e target/$pack ] && cp -r target/$pack dist/target/
+[ -e server/target/webhost-1.0.0.jar ] && cp -r server/target/webhost-1.0.0.jar dist/server/target
+[ -e server/target/dependency ] && cp -r server/target/dependency dist/server/target
+cp opt dist
+echo 'java @opt $* -jar server/target/webhost-1.0.0.jar target/'$pack > dist/run
+chmod +x dist/run
+

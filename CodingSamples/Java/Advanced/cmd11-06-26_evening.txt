@@ -1,0 +1,21 @@
+    1  cd Advanced/JDBC/StoredProcTest/demo/
+    2  ./run CU104 103 12
+    3  ./run CU106 101 8
+    4  cd ../..
+    5  cd ..
+    6  ls
+    7  mkdir ServletAPI
+    8  cd ServletAPI/
+    9  mkdir WebServletTest
+   10  cd WebServletTest/
+   11  ../../newmvnproj jetty-webapp demo1
+   12  ls
+   13  cd demo1/
+   14  ls
+   15  code .
+   16  ./run 
+   17  ./run -Dserver.http.port=5001
+   18  vi server/src/main/java/app/Program.java 
+   19  ./run 
+   20  pwd
+   21  history > ~/Course/Java/Advanced/cmd11-06-26_evening.txt 
