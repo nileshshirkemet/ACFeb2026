@@ -1,0 +1,19 @@
+    1  pwd
+    2  cd Advanced/ServletAPI/WebServletTest/demo2/
+    3  ./run 
+    4  cp ~/Course/DotNet/Advanced/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/* src/main/webapp/
+    5  ./run 
+    6  wget -qP data iitdac.met.edu/shared/data/h2/site.mv.db
+    7  ls data/
+    8  ./run 
+    9  java -jar target/deploy/WEB-INF/lib/h2-2.4.240.jar 
+   10  ./run 
+   11  cd ..
+   12  mkdir WebFilterTest
+   13  cd WebFilterTest/
+   14  ../../newmvnproj jetty-webapp demo
+   15  cd demo/
+   16  code .
+   17  ./run
+   18  pwd
+   19  history > ~/Course/Java/Advanced/cmd12-06-26_evening.txt 
