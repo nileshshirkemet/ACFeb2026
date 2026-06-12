@@ -1,0 +1,8 @@
+    1  cd Advanced/ServletAPI/WebServletTest/demo1/
+    2  ./run 
+    3  cd ..
+    4  ../../newmvnproj jetty-webapp demo2
+    5  cd demo2/
+    6  code .
+    7  ./run
+    8  history > ~/Course/Java/Advanced/cmd12-06-26_morning.txt 
