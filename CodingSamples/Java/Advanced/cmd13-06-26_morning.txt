@@ -1,0 +1,15 @@
+    1  pwd
+    2  cd Advanced/
+    3  LS
+    4  ls
+    5  mkdir JSP
+    6  cd JSP/
+    7  mkdir JavaBeanTest
+    8  cd JavaBeanTest/
+    9  ../../newmvnproj tomcat-webapp demo
+   10  cd demo/
+   11  ls
+   12  code .
+   13  ./run 
+   14  pwd
+   15  history > ~/Course/Java/Advanced/cmd13-06-26_morning.txt 
