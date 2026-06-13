@@ -2,6 +2,8 @@ package app.tourism;
 
 import java.sql.Timestamp;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class Visitor {
     
     String id;
@@ -36,6 +38,7 @@ public class Visitor {
         this.lastVisit = lastVisit;
     }
 
+    @JsonIgnore
     public int getRating() {
         return rating;
     }

@@ -1,0 +1,4 @@
+app/components/WebAppInitializer.class
+app/components/GamblingServlet.class
+app/components/GreetingServlet.class
+app/components/CountingServlet.class
