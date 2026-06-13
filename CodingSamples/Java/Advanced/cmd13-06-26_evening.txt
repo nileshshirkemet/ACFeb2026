@@ -1,0 +1,12 @@
+    1  pwd
+    2  cd JSP/
+    3  ls
+    4  mkdir TagHandlerTest
+    5  cd TagHandlerTest/
+    6  ../../newmvnproj tomcat-webapp demo1
+    7  cd demo1/
+    8  code .
+    9  ./run 
+   10  cd .
+   11  cd ..
+   12  history >cmd13-06-26_evening.txt 
