@@ -1,0 +1,31 @@
+    1  clear
+    2  cd JSP/TagHandlerTest/demo2/
+    3  ./run 
+    4  cd ../..
+    5  cd ..
+    6  mkdir Microservices
+    7  cd Microservices/
+    8  mkdir GRPCTest
+    9  cd GRPCTest/
+   10  ../../newmvnproj grpc-protolib contract
+   11  cd contract/
+   12  ls
+   13  vi pom.xml 
+   14  cp ~/Course/DotNet/Advanced/Microservices/GRPCTest/ContractLib/order_manager.proto src/main/proto/
+   15  vi src/main/proto/order_manager.proto 
+   16  mvn install
+   17  vi src/main/proto/order_manager.proto 
+   18  cd ..
+   19  ../../newmvnproj eclink-app server
+   20  cd server/
+   21  code .
+   22  cp -qP data iitdac.met.edu/shared/java/h2/sales.mv.db
+   23  wget -qP data iitdac.met.edu/shared/java/h2/sales.mv.db
+   24  ls
+   25  wget -P data iitdac.met.edu/shared/java/h2/sales.mv.db
+   26  wget -qP data iitdac.met.edu/shared/data/h2/sales.mv.db
+   27  ls
+   28  ./run 
+   29  java -jar target/dependency/h2-2.4.240.jar 
+   30  pwd
+   31  history > ~/Course/Java/Advanced/cmd15-06-26_evening.txt 

@@ -1,0 +1,5 @@
+if mvn -q clean package dependency:copy-dependencies ; then
+	java @opt -cp target/demo-1.0.0.jar:target/dependency/* app.Program $*
+fi
+
+
