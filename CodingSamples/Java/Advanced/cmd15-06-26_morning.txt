@@ -1,0 +1,17 @@
+    1  clear
+    2  cd Advanced/JSP/TagHandlerTest/demo1/
+    3  ./run 
+    4  cd ..
+    5  ../../newmvnproj tomcat-webapp demo2
+    6  cd demo
+    7  cd demo2
+    8  cp -r ../../../ServletAPI/WebServletTest/demo2/data/ .
+    9  cp -r ../../../ServletAPI/WebServletTest/demo2/src/main/java/app/tourism/ src/main/java/app/
+   10  cp -r ../../../ServletAPI/WebServletTest/demo2/src/main/java/app/models/ src/main/java/app/
+   11  code .
+   12  ./run 
+   13  cd ..
+   14  ls
+   15  cd ..
+   16  ls
+   17  history >cmd15-06-26_morning.txt 

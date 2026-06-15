@@ -21,7 +21,9 @@ public class ShopControllerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String customerId = request.getParameter("custId");
         String password = request.getParameter("custPwd");
-        if(customerId.equals(password)){
+        var model = new CustomerModelBean();
+        if(model.authenticate(customerId, password)){
+            request.setAttribute("customer", model);
             request.getRequestDispatcher("/WEB-INF/views/detail.jsp")
                 .forward(request, response);
         }else{
