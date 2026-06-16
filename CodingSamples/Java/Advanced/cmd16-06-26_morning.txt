@@ -1,0 +1,22 @@
+    1  cd Advanced/
+    2  cd Microservices/GRPCTest/server/
+    3  ls
+    4  mvn -q test
+    5  java -jar target/dependency/h2-2.4.240.jar 
+    6  mvn -q test
+    7  ./run 
+    8  mvn -q test
+    9  ./run
+   10  start
+   11  netstat -pnlt
+   12  cd ..
+   13  cp -r ~/Course/DotNet/Advanced/Microservices/GRPCTest/DemoApp/ demo
+   14  cd demo/
+   15  ls
+   16  python Program.py CU101
+   17  python Program.py CU103
+   18  python Program.py CU103 102 12
+   19  python Program.py CU103
+   20  python Program.py CU103 108 25
+   21  pwd
+   22  history > ~/Course/Java/Advanced/cmd16-06-26_morning.txt 

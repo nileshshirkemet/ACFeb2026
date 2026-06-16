@@ -1,0 +1,11 @@
+    1  pwd
+    2  cd Advanced/Microservices/
+    3  ls
+    4  mkdir RESTTest
+    5  cd RESTTest/
+    6  ../../newmvnproj jersey-restapp server
+    7  cd server/
+    8  code .
+    9  ./run 
+   10  cd ..
+   11  history >cmd16-06-26_evening.txt 
